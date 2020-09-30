@@ -1,0 +1,46 @@
+name: Floppy Disk or Save Icon
+
+on:
+  [push]
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - "content/**"
+
+jobs:
+  linux:
+    name: Linux build on node ${{ matrix.node_version }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node_version: [10.x]
+
+    steps:
+      - uses: actions/checkout@master
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "0.75.1"
+          extended: true
+
+      - name: Gimme the perms
+        run: chmod +x ./scripts/publishScript.sh
+
+      - name: Do your worst
+        run: ./scripts/publishScript.sh
+
+      - name: Committing
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "Api Updater"
+          git add public
+          git commit -m "I am in charge 🗡️" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
