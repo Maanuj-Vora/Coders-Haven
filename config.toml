@@ -1,7 +1,6 @@
 baseURL = "https://maanuj-vora.github.io/"
 languageCode = "en-us"
 title = "Coders' Haven"
-enableGitInfo = true
 theme = "book"
 [params]
     BookTheme = 'auto'
