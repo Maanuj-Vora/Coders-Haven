@@ -38,7 +38,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "Api Updater"
-          git add public
+          git add docs
           git commit -m "I am in charge 🗡️" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
