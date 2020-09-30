@@ -1,12 +1,11 @@
 name: Floppy Disk or Save Icon
 
 on:
-  [push]
-  # push:
-  #   branches:
-  #     - main
-  #   paths:
-  #     - "content/**"
+  push:
+    branches:
+      - main
+    paths:
+      - "content/**"
 
 jobs:
   linux:
