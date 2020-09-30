@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Coders&#39; Haven</title>
+    <link>https://maanuj-vora.github.io/</link>
+    <description>Recent content in Introduction on Coders&#39; Haven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://maanuj-vora.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/python/datatypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/python/datatypes/</guid>
+      <description>Datatypes #   We will be exploring different datatypes
+  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   The type() Function #  type()
+ By adding any varible inside the parenthesis, it will return the type of it  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/python/helloworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/python/helloworld/</guid>
+      <description>Hello World #   We will be printing out the sentence &amp;lsquo;Hello World&amp;rsquo;
+  print(&amp;ldquo;Hello World&amp;rdquo;)
+  Parts #   print()  It prints out words or variables between the parenthesis   &amp;ldquo;Hello World&amp;rdquo;  A string with the value of Hello World is made    </description>
+    </item>
+    
+  </channel>
+</rss>
