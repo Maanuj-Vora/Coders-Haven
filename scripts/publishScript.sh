@@ -19,7 +19,7 @@ echo "Removing existing files"
 rm -rf public/*
 
 echo "Generating site"
-hugo --minify --theme book
+hugo --minify --theme
 
 echo "Updating gh-pages branch"
 cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
