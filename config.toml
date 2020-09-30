@@ -1,8 +1,9 @@
-baseURL = "https://maanuj-vora.github.io/"
+baseURL = "https://maanuj-vora.github.io/Coders-Haven/"
 languageCode = "en-us"
 title = "Coders' Haven"
-enableGitInfo = true
 theme = "book"
+enableGitInfo = true
+
 [params]
     BookTheme = 'auto'
     BookMenuBundle = 'menu'
