@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Coders' Haven"
 enableGitInfo = true
 publishDir = "public"
+theme = "book"
 [params]
     BookTheme = 'auto'
     BookMenuBundle = 'menu'
