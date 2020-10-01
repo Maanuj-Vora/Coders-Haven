@@ -7,6 +7,8 @@ type: docs
 
 ---
 
-This website will include our tutorials, and other files which may prove beneficial for those starting to learn how to code
+This website will include our tutorials, and other files which may prove beneficial for those starting to learn how to code.
+
+More information will be released soon
 
 ---
