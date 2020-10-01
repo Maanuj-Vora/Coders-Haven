@@ -12,3 +12,5 @@ headless = true
   - [If Statements]({{< relref "/python/ifStatements" >}})
   - [Lists]({{< relref "/python/lists" >}})
   - [Strings]({{< relref "/python/strings" >}})
+
+- [Contributors]({{< relref "/contributors" >}})
