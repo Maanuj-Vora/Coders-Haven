@@ -1,0 +1,16 @@
+name: What goes around comes around
+
+on: [push, pull_request]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest:
+    steps:
+      - name: Setup Contributor Thing
+        uses: akhilmhdh/contributors-readme-action@v1.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          readme_path: "content/contributors/_index.md"
+
+      
