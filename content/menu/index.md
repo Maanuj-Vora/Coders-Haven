@@ -13,4 +13,4 @@ headless = true
   - [Lists]({{< relref "/python/lists" >}})
   - [Strings]({{< relref "/python/strings" >}})
 
-- [Contributors]({{< relref "/contributors" >}})
+- [Contributors]({{< relref "/contributors" >}}) 
