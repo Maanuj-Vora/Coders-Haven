@@ -4,7 +4,7 @@ on: [push, pull_request]
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest:
+    runs-on: ubuntu-latest
     steps:
       - name: Setup Contributor Thing
         uses: akhilmhdh/contributors-readme-action@v1.1
