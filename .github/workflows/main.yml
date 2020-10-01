@@ -37,13 +37,14 @@ jobs:
         run: chmod +x ./scripts/publishScript.sh
 
       - name: Do your worst
-        run: ./scripts/publishScript.sh
-
-      - name: Committing
         run: |
-          git add docs
-          git commit -m "I am in charge 🗡️" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          sh ./scripts/publishScript.sh
+
+      # - name: Committing
+      #   run: |
+      #     git add public
+      #     git commit -m "I am in charge 🗡️" -a
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
