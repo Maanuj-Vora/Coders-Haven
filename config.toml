@@ -10,3 +10,6 @@ enableGitInfo = true
     BookSection = 'docs'
     BookSearch = true
     BookComments = false
+    BookRepo = 'https://github.com/Maanuj-Vora/Coders-Haven'
+    BookEditPath = 'edit/master/content'
+    
