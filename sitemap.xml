@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maanuj-vora.github.io/Coders-Haven/contributors/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://maanuj-vora.github.io/Coders-Haven/python/casting/</loc>
     <lastmod>2020-09-30T19:44:51-07:00</lastmod>
   </url>
