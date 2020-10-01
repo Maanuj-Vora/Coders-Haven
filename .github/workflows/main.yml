@@ -60,14 +60,11 @@ jobs:
           echo "Updating gh-pages branch"
           cd public && git add --all && git commit -m "Publishing to gh-pages (publish.sh)"
 
-          echo "Pushing to github"
-          git push --all
-
       # - name: Committing
       #   run: |
       #     git add public
       #     git commit -m "I am in charge 🗡️" -a
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
