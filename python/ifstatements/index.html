@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="If Statements #   If Statements are composed of some parts
+  if(condition):
+ code
+ elif(condition):
+ code
+ else:
+ code
+   Breaking it down #   if -&gt; if  needs a condition   elif -&gt; else if  needs a conditions the second condition you can have as many of these as you want   else -&gt; else  does not need a condition     There are 3 Rules #   NEVER, NEVER EVER, call a If Statment an If Loop The conditions will almost always use operators The conditions have to be true for a block of code to execute   Examples #   x = 4">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="If Statements #   If Statements are composed of some parts
+  if(condition):
+ code
+ elif(condition):
+ code
+ else:
+ code
+   Breaking it down #   if -&gt; if  needs a condition   elif -&gt; else if  needs a conditions the second condition you can have as many of these as you want   else -&gt; else  does not need a condition     There are 3 Rules #   NEVER, NEVER EVER, call a If Statment an If Loop The conditions will almost always use operators The conditions have to be true for a block of code to execute   Examples #   x = 4" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/python/ifstatements/" />
+<meta property="article:modified_time" content="2020-09-30T19:44:51-07:00" />
+<title>If Statements | Coders&#39; Haven</title>
+<link rel="manifest" href="/Coders-Haven/manifest.json">
+<link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
+<script defer src="/Coders-Haven/en.search.min.6076758a1401892995a9b2f7b9eaf2eec23c4710155b105594f11847bc2c9e5e.js" integrity="sha256-YHZ1ihQBiSmVqbL3uery7sI8RxAVWxBVlPEYR7wsnl4="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/Coders-Haven"><span>Coders&#39; Haven</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="/Coders-Haven/python/">Python</a>
+<ul>
+<li><a href="/Coders-Haven/python/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/python/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/python/variables/">Variables</a></li>
+<li><a href="/Coders-Haven/python/operators/">Operators</a></li>
+<li><a href="/Coders-Haven/python/casting/">Casting</a></li>
+<li><a href="/Coders-Haven/python/input/">Input</a></li>
+<li><a href="/Coders-Haven/python/ifstatements/"class=active>If Statements</a></li>
+<li><a href="/Coders-Haven/python/lists/">Lists</a></li>
+<li><a href="/Coders-Haven/python/strings/">Strings</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/Coders-Haven/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>If Statements</strong>
+
+  <label for="toc-control">
+    
+    <img src="/Coders-Haven/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#breaking-it-down">Breaking it down</a>
+      <ul>
+        <li><a href="#there-are-3-rules">There are 3 Rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#examples">Examples</a></li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="if-statements">
+  If Statements
+  <a class="anchor" href="#if-statements">#</a>
+</h1>
+<hr>
+<p>If Statements are composed of some parts</p>
+<hr>
+<blockquote>
+<p>if(condition):</p>
+<blockquote>
+<p>code</p>
+</blockquote>
+<p>elif(condition):</p>
+<blockquote>
+<p>code</p>
+</blockquote>
+<p>else:</p>
+<blockquote>
+<p>code</p>
+</blockquote>
+</blockquote>
+<hr>
+<h2 id="breaking-it-down">
+  Breaking it down
+  <a class="anchor" href="#breaking-it-down">#</a>
+</h2>
+<ul>
+<li>if -&gt; if
+<ul>
+<li>needs a condition</li>
+</ul>
+</li>
+<li>elif -&gt; else if
+<ul>
+<li>needs a conditions</li>
+<li>the second condition</li>
+<li>you can have as many of these as you want</li>
+</ul>
+</li>
+<li>else -&gt; else
+<ul>
+<li>does not need a condition</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="there-are-3-rules">
+  There are 3 Rules
+  <a class="anchor" href="#there-are-3-rules">#</a>
+</h3>
+<ol>
+<li>NEVER, NEVER EVER, call a If Statment an If Loop</li>
+<li>The conditions will almost always use operators</li>
+<li>The conditions have to be true for a block of code to execute</li>
+</ol>
+<hr>
+<h2 id="examples">
+  Examples
+  <a class="anchor" href="#examples">#</a>
+</h2>
+<blockquote>
+<p>x = 4</p>
+<p>if(x &lt; 5):</p>
+<blockquote>
+<p>print(&ldquo;James is super smart&rdquo;)</p>
+</blockquote>
+<p>elif(x == 6):</p>
+<blockquote>
+<p>print(&ldquo;The smartest boi in the world is currently traveling&rdquo;)</p>
+</blockquote>
+<p>else:</p>
+<blockquote>
+<p>print(&ldquo;James is a smartie&rdquo;)</p>
+</blockquote>
+</blockquote>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/6456807b73ec7b1b462c8492859c5e3eb3ee8c10" title='Last modified by Maanuj Vora | October 1, 2020' target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>October 1, 2020</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//python/ifStatements.md" target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#breaking-it-down">Breaking it down</a>
+      <ul>
+        <li><a href="#there-are-3-rules">There are 3 Rules</a></li>
+      </ul>
+    </li>
+    <li><a href="#examples">Examples</a></li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

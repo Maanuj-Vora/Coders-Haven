@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introduction on Coders&#39; Haven</title>
+    <link>https://maanuj-vora.github.io/Coders-Haven/</link>
+    <description>Recent content in Introduction on Coders&#39; Haven</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://maanuj-vora.github.io/Coders-Haven/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/casting/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/casting/</guid>
+      <description>Casting #   Casting is used to switch one type of datatype into another through certain functions
+Why is it needed? #  It is neccessary to know this since inputs are recieved in the form of strings, and if you wanted a numerical input from the user you would not be able to without the use of casting
+ Functions for Casting #   int() #  The int() function will cast anything inside the parenthesis into an integer, only if it is possible to</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/datatypes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/datatypes/</guid>
+      <description>Datatypes #   We will be exploring different datatypes
+  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   The type() Function #  type()
+ By adding any varible inside the parenthesis, it will return the type of it  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/helloworld/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/helloworld/</guid>
+      <description>Hello World #   We will be printing out the sentence &amp;lsquo;Hello World&amp;rsquo;
+  print(&amp;ldquo;Hello World&amp;rdquo;)
+  Parts #   print()  It prints out words or variables between the parenthesis   &amp;ldquo;Hello World&amp;rdquo;  A string with the value of Hello World is made    </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/ifstatements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/ifstatements/</guid>
+      <description>If Statements #   If Statements are composed of some parts
+  if(condition):
+ code
+ elif(condition):
+ code
+ else:
+ code
+   Breaking it down #   if -&amp;gt; if  needs a condition   elif -&amp;gt; else if  needs a conditions the second condition you can have as many of these as you want   else -&amp;gt; else  does not need a condition     There are 3 Rules #   NEVER, NEVER EVER, call a If Statment an If Loop The conditions will almost always use operators The conditions have to be true for a block of code to execute   Examples #   x = 4</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/input/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/input/</guid>
+      <description>Input #   The input() function will pose a prompt to the user, in which the answer to the question will be returned to the program
+Remember that all responses will be stored in a string even if they are numbers, so use casting!
+Example
+ input(&amp;ldquo;What is your name?&amp;quot;)
+ &amp;ldquo;Maanuj&amp;rdquo;
+   input(&amp;ldquo;What is your age?&amp;quot;)
+ &amp;ldquo;17&amp;rdquo;
+   input(&amp;ldquo;Are you alive?&amp;quot;)
+ &amp;ldquo;False&amp;rdquo;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/lists/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/lists/</guid>
+      <description>Lists #   Lists are a special type of datatype which can hold multiple values within it
+Lists can hold any type of datatype within it
+Lists start at an index of 0(like most things in the virtual world), instead of 1
+ Things about Lists #  Declaring an List #   arr = [ ]
+ This makes an empty list named &amp;lsquo;arr&amp;rsquo;
+Adding stuff to an List #   arr = [ ]</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/operators/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/operators/</guid>
+      <description>Operators #   Operators are used in many scenarios. Note that there are two types of operators
+ Logic Operators Mathematical Operators  Logic Operators #   Used for comparisions between two or more objects  Mathematical Operators #   Used for mathematical operations   Examples of Logic Operators #   &amp;lsquo;==&amp;rsquo; (Checking if two things are equal) &amp;lsquo;!=&amp;rsquo; (Checking if two things are not equal) &amp;lsquo;&amp;gt;&amp;rsquo; (Checking if the first object is greater than the second object) &amp;lsquo;&amp;lt;&amp;rsquo; (Checking if the first object is less than the second object) &amp;lsquo;&amp;gt;=&amp;rsquo; (Checking if the first object is greater than or equal to the first object) &amp;lsquo;&amp;lt;=&amp;rsquo; (Checking if the first object is less than or equal to the first object) &amp;lsquo;||&amp;rsquo; (If this is true or that is true, then the whole thing is true) (Only in If Statement) &amp;lsquo;&amp;amp;&amp;amp;&amp;rsquo; (This and that have to be true for the whole thing to be true) (Only in If Statement) &amp;lsquo;and&amp;rsquo; (If this is true or that is true, then the whole thing is true) &amp;lsquo;or&amp;rsquo; (This and that have to be true for the whole thing to be true)  Examples of Mathematical Operators #   &amp;lsquo;+&amp;rsquo; (Adding two items) &amp;lsquo;-&amp;rsquo; (Subtracting two items) &amp;lsquo;*&amp;rsquo; (Multiplying two items) &amp;lsquo;/&amp;rsquo; (Dividing two items) &amp;lsquo;%&amp;rsquo; (Modulus(Basically remainder))  </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/strings/</guid>
+      <description>Strings #   You know that Strings are one type of datatype, but there is more to Strings than just that
+ Strings are like arrays #  You can get a certain character at a specific position in a string like an array using an index.
+ a = &amp;ldquo;Hello World&amp;rdquo;
+print( a[1] )
+ This will print out
+ e
+ since the character &amp;lsquo;e&amp;rsquo; is at the first index of the String</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/python/variables/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/python/variables/</guid>
+      <description>Variables #   Any item/name that is referencing/stores another item in storage
+ Variables can have any name #  For example
+ x Maanuj Is_A Smart1e   Instanitating a Variable #  For example
+ x = 5
+Maanuj = &amp;ldquo;Ok&amp;rdquo;
+Is_A = 0.01
+Smart1e = True
+  Printing Variables #  Place the variable name in the parenthesis of the print() function</description>
+    </item>
+    
+  </channel>
+</rss>
