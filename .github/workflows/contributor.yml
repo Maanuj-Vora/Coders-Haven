@@ -1,15 +1,20 @@
 name: Floor Moderator
 
-on: [push, issues]
+on: [push]
 
 jobs:
-    contrib-readme-job:
-        runs-on: ubuntu-latest
-        name: Looking Around
-        steps:
-            - name: Contribute List
-              uses: akhilmhdh/contributors-readme-action@master
-              with:
-                  readme_path: "content/contributors/_index.md"
-              env:
-                  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  add-contributors:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: BobAnkh/add-contributors@master
+      with:
+        REPO_NAME: 'Maanuj-Vora/Coders-Haven'
+        CONTRIBUTOR: '# Contributors'
+        COLUMN_PER_ROW: '6'
+        ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        IMG_WIDTH: '100'
+        FONT_SIZE: '14'
+        PATH: 'content/contributors/_index.md'
+        COMMIT_MESSAGE: 'Looking around'
+        AVATAR_SHAPE: 'round'
