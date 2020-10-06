@@ -8,6 +8,12 @@ If you have any suggestions, or would like to propose a new idea/coding language
 
 ---
 
+### Script Status
+
+![Floppy Disk or Save Icon](https://github.com/Maanuj-Vora/Coders-Haven/workflows/Floppy%20Disk%20or%20Save%20Icon/badge.svg)
+
+---
+
 ## Contribution Guidelines
 
 ### Editing Paths
