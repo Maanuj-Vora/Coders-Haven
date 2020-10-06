@@ -4,19 +4,17 @@
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Variables #   Any item/name that is referencing/stores another item in storage
- Variables can have any name #  For example
- x Dino Is_A Smart1e   Instanitating a Variable #  For example
-x = 5 Dino = &#34;Ok&#34; Is_A = 0.01 Smart1e = True  Printing Variables #  Place the variable name in the parenthesis of the print() function">
+<meta name="description" content="Public Versus Private Versus Protected #   Public #  The public keyword essentially means that this method or class can be access by anyone who has access to the file, and other files in the project would be able to access these methods
+Private #  The private keyword essentially means that this method can only be access within this file itself
+Protected #  The protected keyword essentially means that different files can access the methods/functions/code inside the protected object, but it cannot change and values inside of it">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
-<meta property="og:description" content="Variables #   Any item/name that is referencing/stores another item in storage
- Variables can have any name #  For example
- x Dino Is_A Smart1e   Instanitating a Variable #  For example
-x = 5 Dino = &#34;Ok&#34; Is_A = 0.01 Smart1e = True  Printing Variables #  Place the variable name in the parenthesis of the print() function" />
+<meta property="og:description" content="Public Versus Private Versus Protected #   Public #  The public keyword essentially means that this method or class can be access by anyone who has access to the file, and other files in the project would be able to access these methods
+Private #  The private keyword essentially means that this method can only be access within this file itself
+Protected #  The protected keyword essentially means that different files can access the methods/functions/code inside the protected object, but it cannot change and values inside of it" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/python/variables/" />
+<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/" />
 <meta property="article:modified_time" content="2020-10-06T14:51:32-07:00" />
-<title>Variables | Coders&#39; Haven</title>
+<title>Public Vprivate Vprotected | Coders&#39; Haven</title>
 <link rel="manifest" href="/Coders-Haven/manifest.json">
 <link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
@@ -64,7 +62,7 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li><a href="/Coders-Haven/docs/python/helloworld/">Hello World</a></li>
 <li><a href="/Coders-Haven/docs/python/datatypes/">Datatypes</a></li>
-<li><a href="/Coders-Haven/docs/python/variables/"class=active>Variables</a></li>
+<li><a href="/Coders-Haven/docs/python/variables/">Variables</a></li>
 <li><a href="/Coders-Haven/docs/python/operators/">Operators</a></li>
 <li><a href="/Coders-Haven/docs/python/casting/">Casting</a></li>
 <li><a href="/Coders-Haven/docs/python/input/">Input</a></li>
@@ -77,7 +75,7 @@ https://github.com/alex-shpak/hugo-book
 <p><a href="/Coders-Haven/docs/java/">Java</a></p>
 <ul>
 <li><a href="/Coders-Haven/docs/java/helloworld/">Hello World</a></li>
-<li><a href="/Coders-Haven/docs/java/publicvprivatevprotected/">Public V Private V Protected</a></li>
+<li><a href="/Coders-Haven/docs/java/publicvprivatevprotected/"class=active>Public V Private V Protected</a></li>
 <li><a href="/Coders-Haven/docs/java/datatypes/">Datatypes</a></li>
 </ul>
 </li>
@@ -111,7 +109,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/Coders-Haven/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Variables</strong>
+  <strong>Public Vprivate Vprotected</strong>
 
   <label for="toc-control">
     
@@ -126,11 +124,15 @@ https://github.com/alex-shpak/hugo-book
     
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#variables">Variables</a>
+    <li><a href="#public-versus-private-versus-protected">Public Versus Private Versus Protected</a>
       <ul>
-        <li><a href="#variables-can-have-any-name">Variables can have any name</a></li>
-        <li><a href="#instanitating-a-variable">Instanitating a Variable</a></li>
-        <li><a href="#printing-variables">Printing Variables</a></li>
+        <li>
+          <ul>
+            <li><a href="#public">Public</a></li>
+            <li><a href="#private">Private</a></li>
+            <li><a href="#protected">Protected</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
@@ -144,40 +146,26 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="variables">
-  Variables
-  <a class="anchor" href="#variables">#</a>
+  <article class="markdown"><h1 id="public-versus-private-versus-protected">
+  Public Versus Private Versus Protected
+  <a class="anchor" href="#public-versus-private-versus-protected">#</a>
 </h1>
 <hr>
-<p>Any item/name that is referencing/stores another item in storage</p>
-<hr>
-<h2 id="variables-can-have-any-name">
-  Variables can have any name
-  <a class="anchor" href="#variables-can-have-any-name">#</a>
-</h2>
-<p>For example</p>
-<ul>
-<li>x</li>
-<li>Dino</li>
-<li>Is_A</li>
-<li>Smart1e</li>
-</ul>
-<hr>
-<h2 id="instanitating-a-variable">
-  Instanitating a Variable
-  <a class="anchor" href="#instanitating-a-variable">#</a>
-</h2>
-<p>For example</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">x <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>
-Dino <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Ok&#34;</span>
-Is_A <span style="color:#f92672">=</span> <span style="color:#ae81ff">0.01</span>
-Smart1e <span style="color:#f92672">=</span> True
-</code></pre></div><hr>
-<h2 id="printing-variables">
-  Printing Variables
-  <a class="anchor" href="#printing-variables">#</a>
-</h2>
-<p>Place the variable name in the parenthesis of the <code>print()</code> function</p>
+<h3 id="public">
+  Public
+  <a class="anchor" href="#public">#</a>
+</h3>
+<p>The <code>public</code> keyword essentially means that this method or class can be access by anyone who has access to the file, and other files in the project would be able to access these methods</p>
+<h3 id="private">
+  Private
+  <a class="anchor" href="#private">#</a>
+</h3>
+<p>The <code>private</code> keyword essentially means that this method can only be access within this file itself</p>
+<h3 id="protected">
+  Protected
+  <a class="anchor" href="#protected">#</a>
+</h3>
+<p>The <code>protected</code> keyword essentially means that different files can access the methods/functions/code inside the protected object, but it cannot change and values inside of it</p>
 </article>
  
       
@@ -197,7 +185,7 @@ Smart1e <span style="color:#f92672">=</span> True
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//docs/python/variables.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//docs/java/publicVprivateVprotected.md" target="_blank" rel="noopener">
       <img src="/Coders-Haven/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
@@ -221,11 +209,15 @@ Smart1e <span style="color:#f92672">=</span> True
       
   <nav id="TableOfContents">
   <ul>
-    <li><a href="#variables">Variables</a>
+    <li><a href="#public-versus-private-versus-protected">Public Versus Private Versus Protected</a>
       <ul>
-        <li><a href="#variables-can-have-any-name">Variables can have any name</a></li>
-        <li><a href="#instanitating-a-variable">Instanitating a Variable</a></li>
-        <li><a href="#printing-variables">Printing Variables</a></li>
+        <li>
+          <ul>
+            <li><a href="#public">Public</a></li>
+            <li><a href="#private">Private</a></li>
+            <li><a href="#protected">Protected</a></li>
+          </ul>
+        </li>
       </ul>
     </li>
   </ul>
