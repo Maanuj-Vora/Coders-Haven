@@ -6,7 +6,9 @@ We will be printing out the sentence 'Hello World'
 
 ---
 
-> print("Hello World")
+```python
+print("Hello World")
+```
 
 ---
 

@@ -8,14 +8,13 @@ Remember that all responses will be stored in a string even if they are numbers,
 
 Example
 
-> input("What is your name?")
->
-> > "Maanuj"
+```python
+input("What is your name?")
+> "Maanuj"
 
-> input("What is your age?")
->
-> > "17"
+input("What is your age?")
+> "17"
 
-> input("Are you alive?")
->
-> > "False"
+input("Are you alive?")
+> "False"
+```

@@ -2,13 +2,13 @@
 headless = true
 +++
 
-- [Python]({{< relref "/python" >}})
-  - [Hello World]({{< relref "/python/helloWorld" >}})
-  - [Datatypes]({{< relref "/python/datatypes" >}})
-  - [Variables]({{< relref "/python/variables" >}})
-  - [Operators]({{< relref "/python/operators" >}})
-  - [Casting]({{< relref "/python/casting" >}})
-  - [Input]({{< relref "/python/input" >}})
-  - [If Statements]({{< relref "/python/ifStatements" >}})
-  - [Lists]({{< relref "/python/lists" >}})
-  - [Strings]({{< relref "/python/strings" >}})
+- [Python]({{< relref "/docs/python" >}})
+  - [Hello World]({{< relref "/docs/python/helloWorld" >}})
+  - [Datatypes]({{< relref "/docs/python/datatypes" >}})
+  - [Variables]({{< relref "/docs/python/variables" >}})
+  - [Operators]({{< relref "/docs/python/operators" >}})
+  - [Casting]({{< relref "/docs/python/casting" >}})
+  - [Input]({{< relref "/docs/python/input" >}})
+  - [If Statements]({{< relref "/docs/python/ifStatements" >}})
+  - [Lists]({{< relref "/docs/python/lists" >}})
+  - [Strings]({{< relref "/docs/python/strings" >}})

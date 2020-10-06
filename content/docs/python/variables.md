@@ -11,7 +11,7 @@ Any item/name that is referencing/stores another item in storage
 For example
 
 - x
-- Maanuj
+- Dino
 - Is_A
 - Smart1e
 
@@ -21,16 +21,15 @@ For example
 
 For example
 
-> x = 5
->
-> Maanuj = "Ok"
->
-> Is_A = 0.01
->
-> Smart1e = True
+```python
+x = 5
+Dino = "Ok"
+Is_A = 0.01
+Smart1e = True
+```
 
 ---
 
 ## Printing Variables
 
-Place the variable name in the parenthesis of the print() function
+Place the variable name in the parenthesis of the `print()` function

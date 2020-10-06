@@ -34,6 +34,8 @@ We will be exploring different datatypes
 
 ## The type() Function
 
+```python
 type()
+```
 
 - By adding any varible inside the parenthesis, it will return the type of it
