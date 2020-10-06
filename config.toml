@@ -19,3 +19,4 @@ enableGitInfo = true
     BookComments = false
     BookRepo = 'https://github.com/Maanuj-Vora/Coders-Haven'
     BookEditPath = 'edit/master/content'
+    BookDateFormat = 'January 2, 2006'

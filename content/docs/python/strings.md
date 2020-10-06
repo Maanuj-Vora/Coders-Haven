@@ -10,14 +10,14 @@ You know that Strings are one type of datatype, but there is more to Strings tha
 
 You can get a certain character at a specific position in a string like an array using an index.
 
-```python
+``` python
 a = "Hello World"
 print(a[1])
 ```
 
 This will print out
 
-```python
+``` python
 e
 ```
 
@@ -27,28 +27,30 @@ since the character 'e' is at the first index of the String
 
 You can get the length of a string using the len() function
 
-```python
+``` python
 a = "Hello World"
 print(len(a))
 ```
 
 This will return
 
-```python
+``` python
 11
 ```
 
 since there are 11 characters in the string
 
-1. H
-2. e
-3. l
-4. l
-5. o
+01. H
+02. e
+03. l
+04. l
+05. o
+
 6.
-7. W
-8. o
-9. r
+
+07. W
+08. o
+09. r
 10. l
 11. d
 
@@ -56,14 +58,14 @@ since there are 11 characters in the string
 
 You can remove leading or trailing blanks in a string using the `strip()` function
 
-```python
+``` python
 a = " Hello World "
 print(a.strip())
 ```
 
 This will return
 
-```python
+``` python
 Hello World
 ```
 
@@ -73,14 +75,14 @@ Without any leading or trailing empty spaces
 
 The `lower()` method will lowercase the characters in a string
 
-```python
+``` python
 a = "Hello World"
 print(a.lower())
 ```
 
 This will return
 
-```python
+``` python
 hello world
 ```
 
@@ -88,14 +90,14 @@ hello world
 
 The `upper()` method will uppercase the characters in a string
 
-```python
+``` python
 a = "Hello World"
 print(a.upper())
 ```
 
 This will return
 
-```python
+``` python
 HELLO WORLD
 ```
 
@@ -103,14 +105,14 @@ HELLO WORLD
 
 The `replace()` method will replace strings with a different string in a string
 
-```python
+``` python
 a = "Hello World"
 print(a.replace("H", "J"))
 ```
 
 This will return
 
-```python
+``` python
 Jello World
 ```
 
@@ -118,14 +120,14 @@ Jello World
 
 The split() method will split a string into an array if there is an occurence of a certain string
 
-```python
+``` python
 a = "Hello World"
 print(a.split("l"))
 ```
 
 This will return
 
-```python
+``` python
 ["He", "", "o Wor", "d"]
 ```
 
@@ -133,7 +135,7 @@ This will return
 
 The `in` keyword and `not in` keywords can help distinguish whether a certain string is present in a string or not (resulting in a boolean)
 
-```python
+``` python
 txt = "Hello World"
 x = "llo" in txt
 print(x)
@@ -141,7 +143,7 @@ print(x)
 
 This will return
 
-```python
+``` python
 True
 ```
 
@@ -149,7 +151,7 @@ True
 
 You can use the format() function to easily insert variables into a string
 
-```python
+``` python
 age = 17
 name = "Dino"
 intro = "Hi, my name is {}, and I am {} years old"
@@ -158,7 +160,7 @@ print(intro.format(name, age))
 
 This will return
 
-```python
+``` python
 Hi, my name is Dino, and I am 17 years old
 ```
 
@@ -166,27 +168,27 @@ Hi, my name is Dino, and I am 17 years old
 
 There are some special characters within strings
 
-- `\n`
-  - New line
-- `\\`
-  - Backslash
-- `\t`
-  - Tab
-- `\r`
-  - Carriage Return
+* `\n`
+  + New line
+* `\\`
+  + Backslash
+* `\t`
+  + Tab
+* `\r`
+  + Carriage Return
 
 ### Finding the index of a certain part
 
 You can find the index of a certain string within the string
 
-```python
+``` python
 a = "Hello World"
 print(a.index("l"))
 ```
 
 This will return
 
-```python
+``` python
 2
 ```
 

@@ -22,7 +22,7 @@ This will round down any decimal values inputted
 
 Examples
 
-```python
+``` python
 int("5")
 > 5
 
@@ -56,7 +56,7 @@ The `str()` function will convert anything between the parenthesis into a String
 
 Examples
 
-```python
+``` python
 str(5)
 > "5"
 
@@ -78,7 +78,7 @@ The `float()` function will convert anything between the parenthesis into a floa
 
 Examples
 
-```python
+``` python
 float(5)
 > 5.0
 
@@ -105,7 +105,7 @@ Essentially, it will return True for anything inside if it is not a 0 nor empty
 
 Examples
 
-```python
+``` python
 bool(10)
 > True
 

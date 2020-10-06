@@ -51,7 +51,7 @@ The conditions have to be true for a block of code to execute
 
 ## Examples
 
-```python
+``` python
 x = 4
 if(x < 5):
   print("James is super smart")

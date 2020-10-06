@@ -15,27 +15,27 @@ We will be exploring different datatypes
 
 ## Integer
 
-- Any whole number
+* Any whole number
 
 ## String
 
-- Any letters, numbers, and characters
-- Quotation marks are needed around the value
+* Any letters, numbers, and characters
+* Quotation marks are needed around the value
 
 ## Float
 
-- Any number with a decimal
+* Any number with a decimal
 
 ## Boolean
 
-- True or False
+* True or False
 
 ---
 
 ## The type() Function
 
-```python
+``` python
 type()
 ```
 
-- By adding any varible inside the parenthesis, it will return the type of it
+* By adding any variable inside the parenthesis, it will return the type of it

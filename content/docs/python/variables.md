@@ -10,10 +10,10 @@ Any item/name that is referencing/stores another item in storage
 
 For example
 
-- x
-- Dino
-- Is_A
-- Smart1e
+* x
+* Dino
+* Is_A
+* Smart1e
 
 ---
 
@@ -21,7 +21,7 @@ For example
 
 For example
 
-```python
+``` python
 x = 5
 Dino = "Ok"
 Is_A = 0.01

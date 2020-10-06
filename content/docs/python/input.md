@@ -8,7 +8,7 @@ Remember that all responses will be stored in a string even if they are numbers,
 
 Example
 
-```python
+``` python
 input("What is your name?")
 > "Maanuj"
 
