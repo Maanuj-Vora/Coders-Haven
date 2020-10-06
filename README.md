@@ -37,3 +37,113 @@ If you have a friend, or know someone who would like to contribute to this proje
 ## References
 
 This website is heavily built upon [Hugo Book](https://themes.gohugo.io/hugo-book/) as well as the [Hugo Framework](https://gohugo.io/) itself
+
+---
+
+## In-Built Cool Stuff
+
+### Buttons
+
+```tpl
+{{< button href="https://maanuj-vora.github.io/" >}}Visit{{< /button >}}
+```
+
+---
+
+### Columns
+
+```html
+{{< columns >}} <!-- begin columns block -->
+# Left Column
+Old
+
+<---> <!-- invisible seperator -->
+
+# Middle Column
+Mc.
+
+<---> <!-- invisible seperator -->
+
+# Right Column
+Donald
+{{< /columns >}}
+```
+
+---
+
+### Expanding Content
+
+```tpl
+{{< details title="Question" open=false >}}
+### Answer
+Explanation
+{{< /details >}}
+```
+```tpl
+{{< expand "Question" "..." >}}
+### Answer
+Explanation
+{{< /expand >}}
+```
+
+---
+
+### Hints
+
+```tpl
+{{< hint [info|warning|danger] >}}
+### This is not a joke. Python is bae
+{{< /hint >}}
+```
+
+---
+
+### KaTex
+
+Helps in rendering math formulas and stuff
+
+Inline Example
+```latex
+{{< katex >}}\pi(x){{< /katex >}}
+```
+
+Block Example
+```latex
+{{< katex display >}}
+f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
+{{< /katex >}}
+```
+
+---
+
+### Mermaid
+
+This helps in the generation of flow charts and svg charts
+
+```tpl
+{{< mermaid >}}
+sequenceDiagram
+Ash Ketchum->>Professor Oak: Hello Professor, can I get my pokémon
+alt is late
+Professor Oak->>Ash Ketchum: Here is Pikachu, shoo shoo
+else is on time
+Professor Oak->>Ash Ketchum: Of course Ash, you can choose between these three pokémon
+end
+opt Extra response
+Professor Oak->>Ash Ketchum: Goodluck on your journey
+end
+{{< /mermaid >}}
+```
+
+---
+
+### Tabs
+```markdown
+{{< tabs "uniqueid" >}}
+{{< tab "Bulbasaur" >}} The Grass-Type Pokémon {{< /tab >}}
+{{< tab "Squirtle" >}} The Water-Type Pokémon {{< /tab >}}
+{{< tab "Charmandar" >}} The Fire-Type Pokémon {{< /tab >}}
+{{< /tabs >}}
+```
+
+---
