@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Strings #   You know that Strings are one type of datatype, but there is more to Strings than just that
+ Strings are like arrays #  You can get a certain character at a specific position in a string like an array using an index.
+a = &#34;Hello World&#34; print(a[1]) This will print out
+e since the character &lsquo;e&rsquo; is at the first index of the String">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Strings #   You know that Strings are one type of datatype, but there is more to Strings than just that
+ Strings are like arrays #  You can get a certain character at a specific position in a string like an array using an index.
+a = &#34;Hello World&#34; print(a[1]) This will print out
+e since the character &lsquo;e&rsquo; is at the first index of the String" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/python/strings/" />
+<meta property="article:modified_time" content="2020-10-06T13:54:03-07:00" />
+<title>Strings | Coders&#39; Haven</title>
+<link rel="manifest" href="/Coders-Haven/manifest.json">
+<link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
+<script defer src="/Coders-Haven/en.search.min.9163d5ec1cbb2c269605a65c8678d49f2fbeaf673011c04542f67fd7f8ddf318.js" integrity="sha256-kWPV7By7LCaWBaZchnjUny&#43;&#43;r2cwEcBFQvZ/1/jd8xg="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/Coders-Haven"><span>Coders&#39; Haven</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li><a href="/Coders-Haven/docs/python/">Python</a>
+<ul>
+<li><a href="/Coders-Haven/docs/python/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/docs/python/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/docs/python/variables/">Variables</a></li>
+<li><a href="/Coders-Haven/docs/python/operators/">Operators</a></li>
+<li><a href="/Coders-Haven/docs/python/casting/">Casting</a></li>
+<li><a href="/Coders-Haven/docs/python/input/">Input</a></li>
+<li><a href="/Coders-Haven/docs/python/ifstatements/">If Statements</a></li>
+<li><a href="/Coders-Haven/docs/python/lists/">Lists</a></li>
+<li><a href="/Coders-Haven/docs/python/strings/"class=active>Strings</a></li>
+</ul>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/Coders-Haven/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Strings</strong>
+
+  <label for="toc-control">
+    
+    <img src="/Coders-Haven/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#strings">Strings</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#strings-are-like-arrays">Strings are like arrays</a></li>
+            <li><a href="#the-length-of-a-string">The length of a string</a></li>
+            <li><a href="#removing-blanks-in-a-string">Removing blanks in a string</a></li>
+            <li><a href="#lowercasing-the-string">Lowercasing the String</a></li>
+            <li><a href="#uppercasing-the-string">Uppercasing the String</a></li>
+            <li><a href="#replacing-characters-in-a-string">Replacing characters in a String</a></li>
+            <li><a href="#splitting-a-string">Splitting a String</a></li>
+            <li><a href="#checking-if-a-string-is-present">Checking if a string is present</a></li>
+            <li><a href="#adding-variables-in-a-string">Adding variables in a string</a></li>
+            <li><a href="#special-characters-in-strings">Special Characters in Strings</a></li>
+            <li><a href="#finding-the-index-of-a-certain-part">Finding the index of a certain part</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="strings">
+  Strings
+  <a class="anchor" href="#strings">#</a>
+</h1>
+<hr>
+<p>You know that Strings are one type of datatype, but there is more to Strings than just that</p>
+<hr>
+<h3 id="strings-are-like-arrays">
+  Strings are like arrays
+  <a class="anchor" href="#strings-are-like-arrays">#</a>
+</h3>
+<p>You can get a certain character at a specific position in a string like an array using an index.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(a[<span style="color:#ae81ff">1</span>])
+</code></pre></div><p>This will print out</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">e
+</code></pre></div><p>since the character &lsquo;e&rsquo; is at the first index of the String</p>
+<h3 id="the-length-of-a-string">
+  The length of a string
+  <a class="anchor" href="#the-length-of-a-string">#</a>
+</h3>
+<p>You can get the length of a string using the len() function</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(len(a))
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ae81ff">11</span>
+</code></pre></div><p>since there are 11 characters in the string</p>
+<ol>
+<li>H</li>
+<li>e</li>
+<li>l</li>
+<li>l</li>
+<li>o</li>
+<li></li>
+<li>W</li>
+<li>o</li>
+<li>r</li>
+<li>l</li>
+<li>d</li>
+</ol>
+<h3 id="removing-blanks-in-a-string">
+  Removing blanks in a string
+  <a class="anchor" href="#removing-blanks-in-a-string">#</a>
+</h3>
+<p>You can remove leading or trailing blanks in a string using the <code>strip()</code> function</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34; Hello World &#34;</span>
+<span style="color:#66d9ef">print</span>(a<span style="color:#f92672">.</span>strip())
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Hello World
+</code></pre></div><p>Without any leading or trailing empty spaces</p>
+<h3 id="lowercasing-the-string">
+  Lowercasing the String
+  <a class="anchor" href="#lowercasing-the-string">#</a>
+</h3>
+<p>The <code>lower()</code> method will lowercase the characters in a string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(a<span style="color:#f92672">.</span>lower())
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">hello world
+</code></pre></div><h3 id="uppercasing-the-string">
+  Uppercasing the String
+  <a class="anchor" href="#uppercasing-the-string">#</a>
+</h3>
+<p>The <code>upper()</code> method will uppercase the characters in a string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(a<span style="color:#f92672">.</span>upper())
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">HELLO WORLD
+</code></pre></div><h3 id="replacing-characters-in-a-string">
+  Replacing characters in a String
+  <a class="anchor" href="#replacing-characters-in-a-string">#</a>
+</h3>
+<p>The <code>replace()</code> method will replace strings with a different string in a string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(a<span style="color:#f92672">.</span>replace(<span style="color:#e6db74">&#34;H&#34;</span>, <span style="color:#e6db74">&#34;J&#34;</span>))
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Jello World
+</code></pre></div><h3 id="splitting-a-string">
+  Splitting a String
+  <a class="anchor" href="#splitting-a-string">#</a>
+</h3>
+<p>The split() method will split a string into an array if there is an occurence of a certain string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(a<span style="color:#f92672">.</span>split(<span style="color:#e6db74">&#34;l&#34;</span>))
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">[<span style="color:#e6db74">&#34;He&#34;</span>, <span style="color:#e6db74">&#34;&#34;</span>, <span style="color:#e6db74">&#34;o Wor&#34;</span>, <span style="color:#e6db74">&#34;d&#34;</span>]
+</code></pre></div><h3 id="checking-if-a-string-is-present">
+  Checking if a string is present
+  <a class="anchor" href="#checking-if-a-string-is-present">#</a>
+</h3>
+<p>The <code>in</code> keyword and <code>not in</code> keywords can help distinguish whether a certain string is present in a string or not (resulting in a boolean)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">txt <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;llo&#34;</span> <span style="color:#f92672">in</span> txt
+<span style="color:#66d9ef">print</span>(x)
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">True
+</code></pre></div><h3 id="adding-variables-in-a-string">
+  Adding variables in a string
+  <a class="anchor" href="#adding-variables-in-a-string">#</a>
+</h3>
+<p>You can use the format() function to easily insert variables into a string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">age <span style="color:#f92672">=</span> <span style="color:#ae81ff">17</span>
+name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Dino&#34;</span>
+intro <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hi, my name is {}, and I am {} years old&#34;</span>
+<span style="color:#66d9ef">print</span>(intro<span style="color:#f92672">.</span>format(name, age))
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">Hi, my name <span style="color:#f92672">is</span> Dino, <span style="color:#f92672">and</span> I am <span style="color:#ae81ff">17</span> years old
+</code></pre></div><h3 id="special-characters-in-strings">
+  Special Characters in Strings
+  <a class="anchor" href="#special-characters-in-strings">#</a>
+</h3>
+<p>There are some special characters within strings</p>
+<ul>
+<li><code>\n</code>
+<ul>
+<li>New line</li>
+</ul>
+</li>
+<li><code>\\</code>
+<ul>
+<li>Backslash</li>
+</ul>
+</li>
+<li><code>\t</code>
+<ul>
+<li>Tab</li>
+</ul>
+</li>
+<li><code>\r</code>
+<ul>
+<li>Carriage Return</li>
+</ul>
+</li>
+</ul>
+<h3 id="finding-the-index-of-a-certain-part">
+  Finding the index of a certain part
+  <a class="anchor" href="#finding-the-index-of-a-certain-part">#</a>
+</h3>
+<p>You can find the index of a certain string within the string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">a <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hello World&#34;</span>
+<span style="color:#66d9ef">print</span>(a<span style="color:#f92672">.</span>index(<span style="color:#e6db74">&#34;l&#34;</span>))
+</code></pre></div><p>This will return</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#ae81ff">2</span>
+</code></pre></div><p>It returned the index of the first occurence of the string within the original string</p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/dec642a807ce60107b7ddcb5056840466397cf6d" title='Last modified by Maanuj Vora | October 6, 2020' target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>October 6, 2020</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//docs/python/strings.md" target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#strings">Strings</a>
+      <ul>
+        <li>
+          <ul>
+            <li><a href="#strings-are-like-arrays">Strings are like arrays</a></li>
+            <li><a href="#the-length-of-a-string">The length of a string</a></li>
+            <li><a href="#removing-blanks-in-a-string">Removing blanks in a string</a></li>
+            <li><a href="#lowercasing-the-string">Lowercasing the String</a></li>
+            <li><a href="#uppercasing-the-string">Uppercasing the String</a></li>
+            <li><a href="#replacing-characters-in-a-string">Replacing characters in a String</a></li>
+            <li><a href="#splitting-a-string">Splitting a String</a></li>
+            <li><a href="#checking-if-a-string-is-present">Checking if a string is present</a></li>
+            <li><a href="#adding-variables-in-a-string">Adding variables in a string</a></li>
+            <li><a href="#special-characters-in-strings">Special Characters in Strings</a></li>
+            <li><a href="#finding-the-index-of-a-certain-part">Finding the index of a certain part</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

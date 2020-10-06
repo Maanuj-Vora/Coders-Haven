@@ -12,13 +12,13 @@ Why is it needed? #  It is neccessary to know this since inputs are recieved in 
 Why is it needed? #  It is neccessary to know this since inputs are recieved in the form of strings, and if you wanted a numerical input from the user you would not be able to without the use of casting
  Functions for Casting #   int() #  The int() function will cast anything inside the parenthesis into an integer, only if it is possible to" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/python/casting/" />
-<meta property="article:modified_time" content="2020-09-30T19:44:51-07:00" />
+<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/python/casting/" />
+<meta property="article:modified_time" content="2020-10-06T13:54:03-07:00" />
 <title>Casting | Coders&#39; Haven</title>
 <link rel="manifest" href="/Coders-Haven/manifest.json">
 <link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
-<script defer src="/Coders-Haven/en.search.min.6076758a1401892995a9b2f7b9eaf2eec23c4710155b105594f11847bc2c9e5e.js" integrity="sha256-YHZ1ihQBiSmVqbL3uery7sI8RxAVWxBVlPEYR7wsnl4="></script>
+<script defer src="/Coders-Haven/en.search.min.9163d5ec1cbb2c269605a65c8678d49f2fbeaf673011c04542f67fd7f8ddf318.js" integrity="sha256-kWPV7By7LCaWBaZchnjUny&#43;&#43;r2cwEcBFQvZ/1/jd8xg="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -57,17 +57,17 @@ https://github.com/alex-shpak/hugo-book
 
 
   <ul>
-<li><a href="/Coders-Haven/python/">Python</a>
+<li><a href="/Coders-Haven/docs/python/">Python</a>
 <ul>
-<li><a href="/Coders-Haven/python/helloworld/">Hello World</a></li>
-<li><a href="/Coders-Haven/python/datatypes/">Datatypes</a></li>
-<li><a href="/Coders-Haven/python/variables/">Variables</a></li>
-<li><a href="/Coders-Haven/python/operators/">Operators</a></li>
-<li><a href="/Coders-Haven/python/casting/"class=active>Casting</a></li>
-<li><a href="/Coders-Haven/python/input/">Input</a></li>
-<li><a href="/Coders-Haven/python/ifstatements/">If Statements</a></li>
-<li><a href="/Coders-Haven/python/lists/">Lists</a></li>
-<li><a href="/Coders-Haven/python/strings/">Strings</a></li>
+<li><a href="/Coders-Haven/docs/python/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/docs/python/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/docs/python/variables/">Variables</a></li>
+<li><a href="/Coders-Haven/docs/python/operators/">Operators</a></li>
+<li><a href="/Coders-Haven/docs/python/casting/"class=active>Casting</a></li>
+<li><a href="/Coders-Haven/docs/python/input/">Input</a></li>
+<li><a href="/Coders-Haven/docs/python/ifstatements/">If Statements</a></li>
+<li><a href="/Coders-Haven/docs/python/lists/">Lists</a></li>
+<li><a href="/Coders-Haven/docs/python/strings/">Strings</a></li>
 </ul>
 </li>
 </ul>
@@ -160,98 +160,72 @@ https://github.com/alex-shpak/hugo-book
   int()
   <a class="anchor" href="#int">#</a>
 </h3>
-<p>The int() function will cast anything inside the parenthesis into an integer, only if it is possible to</p>
+<p>The <code>int()</code> function will cast anything inside the parenthesis into an integer, only if it is possible to</p>
 <p>This will round down any decimal values inputted</p>
 <p>Examples</p>
-<blockquote>
-<p>int(&ldquo;5&rdquo;)</p>
-<blockquote>
-<p>5</p>
-</blockquote>
-<p>int(&ldquo;10&rdquo;)</p>
-<blockquote>
-<p>10</p>
-</blockquote>
-<p>int(&ldquo;10.4&rdquo;)</p>
-<blockquote>
-<p>Error</p>
-</blockquote>
-<p>int(10.1)</p>
-<blockquote>
-<p>10</p>
-</blockquote>
-<p>int(10.44)</p>
-<blockquote>
-<p>10</p>
-</blockquote>
-<p>int(&ldquo;Hi&rdquo;)</p>
-<blockquote>
-<p>Error</p>
-</blockquote>
-<p>int(True)</p>
-<blockquote>
-<p>1</p>
-</blockquote>
-<p>int(False)</p>
-<blockquote>
-<p>0</p>
-</blockquote>
-</blockquote>
-<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">int(<span style="color:#e6db74">&#34;5&#34;</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5</span>
+
+int(<span style="color:#e6db74">&#34;10&#34;</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>
+
+int(<span style="color:#e6db74">&#34;10.4&#34;</span>)
+<span style="color:#f92672">&gt;</span> Error
+
+int(<span style="color:#ae81ff">10.1</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>
+
+int(<span style="color:#ae81ff">10.44</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">10</span>
+
+int(<span style="color:#e6db74">&#34;Hi&#34;</span>)
+<span style="color:#f92672">&gt;</span> Error
+
+int(True)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1</span>
+
+int(False)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0</span>
+</code></pre></div><hr>
 <h3 id="str">
   str()
   <a class="anchor" href="#str">#</a>
 </h3>
-<p>The str() function will convert anything between the parenthesis into a String object if possible(which the answer is it usually is)</p>
+<p>The <code>str()</code> function will convert anything between the parenthesis into a String object if possible(which the answer is it usually is)</p>
 <p>Examples</p>
-<blockquote>
-<p>str(5)</p>
-<blockquote>
-<p>&ldquo;5&rdquo;</p>
-</blockquote>
-<p>str(6.11)</p>
-<blockquote>
-<p>&ldquo;6.11&rdquo;</p>
-</blockquote>
-<p>str(True)</p>
-<blockquote>
-<p>&ldquo;True&rdquo;</p>
-</blockquote>
-<p>str(&ldquo;String&rdquo;)</p>
-<blockquote>
-<p>&ldquo;String&rdquo;</p>
-</blockquote>
-</blockquote>
-<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">str(<span style="color:#ae81ff">5</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;5&#34;</span>
+
+str(<span style="color:#ae81ff">6.11</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;6.11&#34;</span>
+
+str(True)
+<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;True&#34;</span>
+
+str(<span style="color:#e6db74">&#34;String&#34;</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;String&#34;</span>
+</code></pre></div><hr>
 <h3 id="float">
   float()
   <a class="anchor" href="#float">#</a>
 </h3>
-<p>The float() function will convert anything between the parenthesis into a float, only if it is possible to do</p>
+<p>The <code>float()</code> function will convert anything between the parenthesis into a float, only if it is possible to do</p>
 <p>Examples</p>
-<blockquote>
-<p>float(5)</p>
-<blockquote>
-<p>5.0</p>
-</blockquote>
-<p>float(5.1111)</p>
-<blockquote>
-<p>5.1111</p>
-</blockquote>
-<p>float(&ldquo;5.1241&rdquo;)</p>
-<blockquote>
-<p>5.1241</p>
-</blockquote>
-<p>float(True)</p>
-<blockquote>
-<p>1.0</p>
-</blockquote>
-<p>float(False)</p>
-<blockquote>
-<p>0.0</p>
-</blockquote>
-</blockquote>
-<hr>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">float(<span style="color:#ae81ff">5</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5.0</span>
+
+float(<span style="color:#ae81ff">5.1111</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5.1111</span>
+
+float(<span style="color:#e6db74">&#34;5.1241&#34;</span>)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">5.1241</span>
+
+float(True)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">1.0</span>
+
+float(False)
+<span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">0.0</span>
+</code></pre></div><hr>
 <h3 id="bool">
   bool()
   <a class="anchor" href="#bool">#</a>
@@ -259,21 +233,15 @@ https://github.com/alex-shpak/hugo-book
 <p>Will return a True of False value of anything inputted into the parenthesis</p>
 <p>Essentially, it will return True for anything inside if it is not a 0 nor empty</p>
 <p>Examples</p>
-<blockquote>
-<p>bool(10)</p>
-<blockquote>
-<p>True</p>
-</blockquote>
-<p>bool(1000.001212144)</p>
-<blockquote>
-<p>True</p>
-</blockquote>
-<p>bool(0)</p>
-<blockquote>
-<p>False</p>
-</blockquote>
-</blockquote>
-</article>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">bool(<span style="color:#ae81ff">10</span>)
+<span style="color:#f92672">&gt;</span> True
+
+bool(<span style="color:#ae81ff">1000.001212144</span>)
+<span style="color:#f92672">&gt;</span> True
+
+bool(<span style="color:#ae81ff">0</span>)
+<span style="color:#f92672">&gt;</span> False
+</code></pre></div></article>
  
       
 
@@ -283,16 +251,16 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/6456807b73ec7b1b462c8492859c5e3eb3ee8c10" title='Last modified by Maanuj Vora | October 1, 2020' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/dec642a807ce60107b7ddcb5056840466397cf6d" title='Last modified by Maanuj Vora | October 6, 2020' target="_blank" rel="noopener">
       <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>October 1, 2020</span>
+      <span>October 6, 2020</span>
     </a>
   </div>
 
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//python/casting.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//docs/python/casting.md" target="_blank" rel="noopener">
       <img src="/Coders-Haven/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
