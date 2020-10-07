@@ -12,11 +12,11 @@ If you have any suggestions, or would like to propose a new idea/coding language
 
 ### Editing Paths
 
-Files to be edited will be in the path `/content/`
+Files to be edited will be in the path `/content/docs/`
 
 `/content/menu/index.md` is where the the sidebar's information will be written into
 
-`/content/folder/` is the directory where the information of different coding languages will be kept in
+`/content/docs/<language>/` is the directory where the information of different coding languages will be kept in
 
 ---
 
