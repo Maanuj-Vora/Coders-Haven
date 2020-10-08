@@ -1,6 +1,11 @@
 name: Contributing to the Contributors
 
-on: [push]
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "content/**"
 
 jobs:
   build:
