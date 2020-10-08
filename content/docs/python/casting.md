@@ -20,8 +20,6 @@ The `int()` function will cast anything inside the parenthesis into an integer, 
 
 This will round down any decimal values inputted
 
-Examples
-
 ``` python
 int("5")
 > 5
@@ -54,8 +52,6 @@ int(False)
 
 The `str()` function will convert anything between the parenthesis into a String object if possible(which the answer is it usually is)
 
-Examples
-
 ``` python
 str(5)
 > "5"
@@ -75,8 +71,6 @@ str("String")
 ### float()
 
 The `float()` function will convert anything between the parenthesis into a float, only if it is possible to do
-
-Examples
 
 ``` python
 float(5)
@@ -102,8 +96,6 @@ float(False)
 Will return a True of False value of anything inputted into the parenthesis
 
 Essentially, it will return True for anything inside if it is not a 0 nor empty
-
-Examples
 
 ``` python
 bool(10)
