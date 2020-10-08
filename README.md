@@ -26,20 +26,6 @@ Files to be edited will be in the path `/content/docs/`
 
 ---
 
-### Ethics
-
-Please do not include any deragatory terms in any way, shape or form. Ever.
-
-Advertising your own products is also frowned upon. Make this website resource that others would highly recommend
-
----
-
-## Contributors
-
-If you have a friend, or know someone who would like to contribute to this project and does not have access, you can send me a direct message on discord to `Rainbwsep#4828` or contact me through any other medians
-
----
-
 ## References
 
 This website is heavily built upon [Hugo Book](https://themes.gohugo.io/hugo-book/) as well as the [Hugo Framework](https://gohugo.io/) itself
