@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://maanuj-vora.github.io/Coders-Haven/contributor/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</loc>
     <lastmod>2020-10-06T14:51:32-07:00</lastmod>
   </url>
