@@ -17,3 +17,5 @@ headless = true
   + [Hello World]({{< relref "/docs/java/helloWorld" >}})
   + [Public V Private V Protected]({{< relref "/docs/java/publicVprivateVprotected" >}})
   + [Datatypes]({{< relref "/docs/java/datatypes" >}})
+
+* [Contributors]({{< relref "/contributor" >}})
