@@ -12,6 +12,8 @@ If you have any suggestions, or would like to propose a new idea/coding language
 
 ![Floppy Disk or Save Icon](https://github.com/Maanuj-Vora/Coders-Haven/workflows/Floppy%20Disk%20or%20Save%20Icon/badge.svg)
 
+![Contributing to the Contributors](https://github.com/Maanuj-Vora/Coders-Haven/workflows/Contributing%20to%20the%20Contributors/badge.svg)
+
 ---
 
 ### Editing Paths
