@@ -21,11 +21,11 @@ This will print out
 e
 ```
 
-since the character 'e' is at the first index of the String
+since the character `'e'` is at the first index of the String
 
 ### The length of a string
 
-You can get the length of a string using the len() function
+You can get the length of a string using the `len()` function
 
 ``` python
 a = "Hello World"
@@ -118,7 +118,7 @@ Jello World
 
 ### Splitting a String
 
-The split() method will split a string into an array if there is an occurence of a certain string
+The `split()` method will split a string into an array if there is an occurence of a certain string
 
 ``` python
 a = "Hello World"
@@ -149,7 +149,7 @@ True
 
 ### Adding variables in a string
 
-You can use the format() function to easily insert variables into a string
+You can use the `format()` function to easily insert variables into a string
 
 ``` python
 age = 17

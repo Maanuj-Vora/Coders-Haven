@@ -14,7 +14,7 @@ print("Hello World")
 
 ## Parts
 
-* print()
+* `print()`
   + It prints out words or variables between the parenthesis
-* "Hello World"
+* `"Hello World"`
   + A string with the value of Hello World is made

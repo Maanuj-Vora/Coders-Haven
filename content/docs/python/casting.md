@@ -14,7 +14,7 @@ It is neccessary to know this since inputs are recieved in the form of strings, 
 
 ---
 
-### int()
+### `int()`
 
 The `int()` function will cast anything inside the parenthesis into an integer, only if it is possible to
 
@@ -48,7 +48,7 @@ int(False)
 
 ---
 
-### str()
+### `str()`
 
 The `str()` function will convert anything between the parenthesis into a String object if possible(which the answer is it usually is)
 
@@ -68,7 +68,7 @@ str("String")
 
 ---
 
-### float()
+### `float()`
 
 The `float()` function will convert anything between the parenthesis into a float, only if it is possible to do
 
@@ -91,7 +91,7 @@ float(False)
 
 ---
 
-### bool()
+### `bool()`
 
 Will return a True of False value of anything inputted into the parenthesis
 

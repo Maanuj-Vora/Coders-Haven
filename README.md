@@ -52,18 +52,14 @@ This website is heavily built upon [Hugo Book](https://themes.gohugo.io/hugo-boo
 # Left Column
 Old
 
-<--->
-    <!-- invisible seperator -->
+<---> <!-- invisible seperator -->
+# Middle Column
+Mc.
 
-    # Middle Column
-    Mc.
-
-    <--->
-        <!-- invisible seperator -->
-
-        # Right Column
-        Donald
-        {{< /columns >}}
+<---> <!-- invisible seperator -->
+# Right Column
+Donald
+{{< /columns >}}
 ```
 
 ---
