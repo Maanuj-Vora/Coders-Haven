@@ -77,7 +77,7 @@ Why is it needed? #  It is neccessary to know this since inputs are recieved in 
       
       <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/helloworld/</guid>
       <description>Hello World #   We will be printing out the sentence &amp;lsquo;Hello World&amp;rsquo;
- print(&amp;#34;Hello World&amp;#34;)  Parts #   print()  It prints out words or variables between the parenthesis   &amp;ldquo;Hello World&amp;rdquo;  A string with the value of Hello World is made    </description>
+ print(&amp;#34;Hello World&amp;#34;)  Parts #   print()  It prints out words or variables between the parenthesis   &amp;quot;Hello World&amp;quot;  A string with the value of Hello World is made    </description>
     </item>
     
     <item>
@@ -134,7 +134,7 @@ Adding objects to an List #  lst = [ ] lst.</description>
       <description>Strings #   You know that Strings are one type of datatype, but there is more to Strings than just that
  Strings are like arrays #  You can get a certain character at a specific position in a string like an array using an index.
 a = &amp;#34;Hello World&amp;#34; print(a[1]) This will print out
-e since the character &amp;lsquo;e&amp;rsquo; is at the first index of the String</description>
+e since the character &#39;e&#39; is at the first index of the String</description>
     </item>
     
     <item>
