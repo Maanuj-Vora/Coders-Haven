@@ -24,3 +24,14 @@ jobs:
           IMG_WIDTH: "50"
           FONT_SIZE: "14"
           COMMIT_MESSAGE: "Contributed to Contributor List"
+      - uses: Maanuj-Vora/List-Contributors@0.1.5
+        with:
+          REPO_NAME: "${{github.repository}}"
+          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CONTRIBUTOR: "### Contributors"
+          ENDCONTRIBUTOR: "---"
+          FILEPATH: "README.md"
+          COLUMN_PER_ROW: "4"
+          IMG_WIDTH: "50"
+          FONT_SIZE: "14"
+          COMMIT_MESSAGE: "Contributed to Contributor List"
