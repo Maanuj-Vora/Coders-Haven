@@ -1,11 +1,11 @@
 name: Contributing to the Contributors
 
-on:
-  push:
-    branches:
-      - master
-    paths:
-      - "content/**"
+on: [push]
+#   push:
+#     branches:
+#       - master
+#     paths:
+#       - "content/**"
 
 jobs:
   build:
@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: Maanuj-Vora/List-Contributors@0.1.5
+      - uses: Maanuj-Vora/List-Contributors@1.0.0
         with:
           REPO_NAME: "${{github.repository}}"
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
@@ -24,7 +24,7 @@ jobs:
           IMG_WIDTH: "50"
           FONT_SIZE: "14"
           COMMIT_MESSAGE: "Contributed to Contributor List"
-      - uses: Maanuj-Vora/List-Contributors@0.1.5
+      - uses: Maanuj-Vora/List-Contributors@1.0.0
         with:
           REPO_NAME: "${{github.repository}}"
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
