@@ -19,7 +19,6 @@ If you have any suggestions, or would like to propose a new idea/coding language
 ### Editing Paths
 
 Files to be edited will be in the path `/content/docs/`
-
 `/content/menu/index.md` is where the the sidebar's information will be written into
 
 `/content/docs/<language>/` is the directory where the information of different coding languages will be kept in
@@ -40,7 +39,7 @@ This website is heavily built upon [Hugo Book](https://themes.gohugo.io/hugo-boo
 
 ### Buttons
 
-```tpl
+``` tpl
 {{< button href="https://maanuj-vora.github.io/" >}}Visit{{< /button >}}
 ```
 
@@ -48,36 +47,43 @@ This website is heavily built upon [Hugo Book](https://themes.gohugo.io/hugo-boo
 
 ### Columns
 
-```html
+``` html
 {{< columns >}} <!-- begin columns block -->
 # Left Column
 Old
 
-<---> <!-- invisible seperator -->
+<--->
+    <!-- invisible seperator -->
 
-# Middle Column
-Mc.
+    # Middle Column
+    Mc.
 
-<---> <!-- invisible seperator -->
+    <--->
+        <!-- invisible seperator -->
 
-# Right Column
-Donald
-{{< /columns >}}
+        # Right Column
+        Donald
+        {{< /columns >}}
 ```
 
 ---
 
 ### Expanding Content
 
-```tpl
+``` tpl
 {{< details title="Question" open=false >}}
+
 ### Answer
+
 Explanation
 {{< /details >}}
 ```
-```tpl
+
+``` tpl
 {{< expand "Question" "..." >}}
+
 ### Answer
+
 Explanation
 {{< /expand >}}
 ```
@@ -86,9 +92,11 @@ Explanation
 
 ### Hints
 
-```tpl
+``` tpl
 {{< hint [info|warning|danger] >}}
+
 ### This is not a joke. Python is bae
+
 {{< /hint >}}
 ```
 
@@ -99,12 +107,14 @@ Explanation
 Helps in rendering math formulas and stuff
 
 Inline Example
-```latex
+
+``` latex
 {{< katex >}}\pi(x){{< /katex >}}
 ```
 
 Block Example
-```latex
+
+``` latex
 {{< katex display >}}
 f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 {{< /katex >}}
@@ -116,7 +126,7 @@ f(x) = \int_{-\infty}^\infty\hat f(\xi)\,e^{2 \pi i \xi x}\,d\xi
 
 This helps in the generation of flow charts and svg charts
 
-```tpl
+``` tpl
 {{< mermaid >}}
 sequenceDiagram
 Ash Ketchum->>Professor Oak: Hello Professor, can I get my pokémon
@@ -134,7 +144,8 @@ end
 ---
 
 ### Tabs
-```markdown
+
+``` markdown
 {{< tabs "uniqueid" >}}
 {{< tab "Bulbasaur" >}} The Grass-Type Pokémon {{< /tab >}}
 {{< tab "Squirtle" >}} The Water-Type Pokémon {{< /tab >}}
