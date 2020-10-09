@@ -1,11 +1,11 @@
 name: Contributing to the Contributors
 
-on: [push]
-#   push:
-#     branches:
-#       - master
-#     paths:
-#       - "content/**"
+on: #[push]
+  push:
+    branches:
+      - master
+    paths:
+      - "content/**"
 
 jobs:
   build:
@@ -24,14 +24,14 @@ jobs:
           IMG_WIDTH: "50"
           FONT_SIZE: "14"
           COMMIT_MESSAGE: "Contributed to Contributor List"
-      - uses: Maanuj-Vora/List-Contributors@1.0.1
-        with:
-          REPO_NAME: "${{github.repository}}"
-          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-          CONTRIBUTOR: "### Contributors"
-          ENDCONTRIBUTOR: "---"
-          FILEPATH: "README.md"
-          COLUMN_PER_ROW: "4"
-          IMG_WIDTH: "50"
-          FONT_SIZE: "14"
-          COMMIT_MESSAGE: "Contributed to Contributor List"
+#       - uses: Maanuj-Vora/List-Contributors@1.0.1
+#         with:
+#           REPO_NAME: "${{github.repository}}"
+#           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+#           CONTRIBUTOR: "### Contributors"
+#           ENDCONTRIBUTOR: "---"
+#           FILEPATH: "README.md"
+#           COLUMN_PER_ROW: "4"
+#           IMG_WIDTH: "50"
+#           FONT_SIZE: "14"
+#           COMMIT_MESSAGE: "Contributed to Contributor List"
