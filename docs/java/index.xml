@@ -37,5 +37,17 @@ Private #  The private keyword essentially means that this method can only be ac
 Protected #  The protected keyword essentially means that different files can access the methods/functions/code inside the protected object, but it cannot change and values inside of it</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</guid>
+      <description>Strings #   In Java, Strings have many different functions which can be applied to them.
+ indexOf() #  With the indexOf() function, you can check for the first occurrence of a String inside of another String
+String longStr = &amp;#34;Hi, my name is Kai, and I like Pi&amp;#34;; int indexStr = longStr.indexOf(&amp;#34;Kai&amp;#34;); System.out.println(indexStr); This would print out the following to the console
+15 This returns the index of which the first character of the String Kai is located at, which is 15</description>
+    </item>
+    
   </channel>
 </rss>

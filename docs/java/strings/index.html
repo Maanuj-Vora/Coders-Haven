@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Strings #   In Java, Strings have many different functions which can be applied to them.
+ indexOf() #  With the indexOf() function, you can check for the first occurrence of a String inside of another String
+String longStr = &#34;Hi, my name is Kai, and I like Pi&#34;; int indexStr = longStr.indexOf(&#34;Kai&#34;); System.out.println(indexStr); This would print out the following to the console
+15 This returns the index of which the first character of the String Kai is located at, which is 15">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Strings #   In Java, Strings have many different functions which can be applied to them.
+ indexOf() #  With the indexOf() function, you can check for the first occurrence of a String inside of another String
+String longStr = &#34;Hi, my name is Kai, and I like Pi&#34;; int indexStr = longStr.indexOf(&#34;Kai&#34;); System.out.println(indexStr); This would print out the following to the console
+15 This returns the index of which the first character of the String Kai is located at, which is 15" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/java/strings/" />
+<meta property="article:modified_time" content="2020-10-09T13:04:30-07:00" />
+<title>Strings | Coders&#39; Haven</title>
+<link rel="manifest" href="/Coders-Haven/manifest.json">
+<link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
+<script defer src="/Coders-Haven/en.search.min.a0c41978af5f2bc1a70577343da5317844e1bd0e38e47801763345bdc652abd3.js" integrity="sha256-oMQZeK9fK8GnBXc0PaUxeEThvQ445HgBdjNFvcZSq9M="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/Coders-Haven"><span>Coders&#39; Haven</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><a href="/Coders-Haven/docs/python/">Python</a></p>
+<ul>
+<li><a href="/Coders-Haven/docs/python/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/docs/python/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/docs/python/variables/">Variables</a></li>
+<li><a href="/Coders-Haven/docs/python/operators/">Operators</a></li>
+<li><a href="/Coders-Haven/docs/python/casting/">Casting</a></li>
+<li><a href="/Coders-Haven/docs/python/input/">Input</a></li>
+<li><a href="/Coders-Haven/docs/python/ifstatements/">If Statements</a></li>
+<li><a href="/Coders-Haven/docs/python/lists/">Lists</a></li>
+<li><a href="/Coders-Haven/docs/python/strings/">Strings</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/Coders-Haven/docs/java/">Java</a></p>
+<ul>
+<li><a href="/Coders-Haven/docs/java/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/docs/java/publicvprivatevprotected/">Public V Private V Protected</a></li>
+<li><a href="/Coders-Haven/docs/java/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/docs/java/strings/"class=active>Strings</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/Coders-Haven/contributor/">Contributors</a></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/Coders-Haven/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Strings</strong>
+
+  <label for="toc-control">
+    
+    <img src="/Coders-Haven/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#strings">Strings</a>
+      <ul>
+        <li><a href="#indexof"><code>indexOf()</code></a></li>
+        <li><a href="#substring"><code>subString()</code></a></li>
+        <li><a href="#adding-strings">Adding Strings</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="strings">
+  Strings
+  <a class="anchor" href="#strings">#</a>
+</h1>
+<hr>
+<p>In Java, Strings have many different functions which can be applied to them.</p>
+<hr>
+<h2 id="indexof">
+  <code>indexOf()</code>
+  <a class="anchor" href="#indexof">#</a>
+</h2>
+<p>With the <code>indexOf()</code> function, you can check for the first occurrence of a String inside of another String</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">String longStr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hi, my name is Kai, and I like Pi&#34;</span><span style="color:#f92672">;</span>
+<span style="color:#66d9ef">int</span> indexStr <span style="color:#f92672">=</span> longStr<span style="color:#f92672">.</span><span style="color:#a6e22e">indexOf</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Kai&#34;</span><span style="color:#f92672">);</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>indexStr<span style="color:#f92672">);</span>
+</code></pre></div><p>This would print out the following to the console</p>
+<pre><code>15
+</code></pre><p>This returns the index of which the first character of the String <code>Kai</code> is located at, which is 15</p>
+<p>We can see this with the following table</p>
+<table>
+<thead>
+<tr>
+<th>Index Number</th>
+<th>Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><code>H</code></td>
+</tr>
+<tr>
+<td>1</td>
+<td><code>i</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>,</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code> </code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>m</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>y</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><code> </code></td>
+</tr>
+<tr>
+<td>7</td>
+<td><code>n</code></td>
+</tr>
+<tr>
+<td>8</td>
+<td><code>a</code></td>
+</tr>
+<tr>
+<td>9</td>
+<td><code>m</code></td>
+</tr>
+<tr>
+<td>10</td>
+<td><code>e</code></td>
+</tr>
+<tr>
+<td>11</td>
+<td><code> </code></td>
+</tr>
+<tr>
+<td>12</td>
+<td><code>i</code></td>
+</tr>
+<tr>
+<td>13</td>
+<td><code>s</code></td>
+</tr>
+<tr>
+<td>14</td>
+<td><code> </code></td>
+</tr>
+<tr>
+<td>15</td>
+<td><code>K</code></td>
+</tr>
+</tbody>
+</table>
+<p>Here we can see that at the 15th index, it contains the character <code>K</code> from the String <code>Kai</code> , and it returns the integer <code>15</code> , the index</p>
+<hr>
+<h2 id="substring">
+  <code>subString()</code>
+  <a class="anchor" href="#substring">#</a>
+</h2>
+<p>With the <code>subString()</code> function, you can get a smaller String out of a larger String</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">String longStr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hi, my name is Kai, and I like Pi&#34;</span><span style="color:#f92672">;</span>
+String subStr <span style="color:#f92672">=</span> longStr<span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>0<span style="color:#f92672">,</span>5<span style="color:#f92672">);</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>subStr<span style="color:#f92672">);</span>
+</code></pre></div><p>This would print out the following to the console</p>
+<pre><code>Hi, m
+</code></pre><p>Basically what it is doing here is that it takes the input <code>(startIndex, endIndex-1)</code> , as we have seen, we inputted the startIndex as <code>0</code> and the endIndex as <code>5</code> , but it will only go up till <code>4</code></p>
+<table>
+<thead>
+<tr>
+<th>Index Number</th>
+<th>Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><code>H</code></td>
+</tr>
+<tr>
+<td>1</td>
+<td><code>i</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>,</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code> </code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>m</code></td>
+</tr>
+</tbody>
+</table>
+<p>The table above shows our indexes within the String</p>
+<p>Another example is shown here</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">String longStr <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hi, my name is Kai, and I like Pi&#34;</span><span style="color:#f92672">;</span>
+String subStr <span style="color:#f92672">=</span> longStr<span style="color:#f92672">.</span><span style="color:#a6e22e">substring</span><span style="color:#f92672">(</span>2<span style="color:#f92672">);</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>subStr<span style="color:#f92672">);</span>
+</code></pre></div><p>This would print out the following to the console</p>
+<pre><code>, my name is Kai, and I like Pi
+</code></pre><p>Wait, but didn&rsquo;t you just say that the <code>subString()</code> function took in two values? Why are you inputting in one value now?</p>
+<p>Well, we can also do it with one value, it will go from that index, to the end of the String and return that subString-ed String</p>
+<table>
+<thead>
+<tr>
+<th>Index Number</th>
+<th>Character</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td><code>H</code></td>
+</tr>
+<tr>
+<td>1</td>
+<td><code>i</code></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="adding-strings">
+  Adding Strings
+  <a class="anchor" href="#adding-strings">#</a>
+</h2>
+<p>Did you know that you can add two Strings together to make one whole String?</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">String basic <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;H&#34;</span><span style="color:#f92672">;</span>
+basic <span style="color:#f92672">=</span> basic <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34;i&#34;</span><span style="color:#f92672">;</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>basic<span style="color:#f92672">);</span>
+</code></pre></div><p>This would print out the following to the console</p>
+<pre><code>Hi
+</code></pre><p>What we did, is we took the original String, <code>&quot;H&quot;</code> , and we took another String, <code>&quot;i&quot;</code> , and added them both together, to make <code>&quot;Hi&quot;</code>
+We can also do this in a slightly different way</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">String basic <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;H&#34;</span><span style="color:#f92672">;</span>
+basic <span style="color:#f92672">+=</span> <span style="color:#e6db74">&#34;i&#34;</span><span style="color:#f92672">;</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>basic<span style="color:#f92672">);</span>
+</code></pre></div><p>This would print out the following to the console</p>
+<pre><code>Hi
+</code></pre><p>The only thing that changed was the operator of adding. The <code>+=</code> basically takes whatever was there and adds to it</p>
+<p>One more thing, you can also add a String and an Integer together</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">String basic <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;H&#34;</span><span style="color:#f92672">;</span>
+basic <span style="color:#f92672">+=</span> 1<span style="color:#f92672">;</span>
+System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span>basic<span style="color:#f92672">);</span>
+</code></pre></div><p>This would print out the following to the console</p>
+<pre><code>H1
+</code></pre><p>This converts the int, <code>1</code> to a String, <code>&quot;1&quot;</code> , and adds it to the String, to make a string <code>&quot;H&quot;</code></p>
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/a21c1afb3caf79f0ba09436630251df1e39cf396" title='Last modified by Maanuj Vora | October 9, 2020' target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>October 9, 2020</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//docs/java/strings.md" target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#strings">Strings</a>
+      <ul>
+        <li><a href="#indexof"><code>indexOf()</code></a></li>
+        <li><a href="#substring"><code>subString()</code></a></li>
+        <li><a href="#adding-strings">Adding Strings</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
