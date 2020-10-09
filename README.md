@@ -25,6 +25,10 @@ Files to be edited will be in the path `/content/docs/`
 
 ---
 
+### Contributors
+
+---
+
 ## References
 
 This website is heavily built upon [Hugo Book](https://themes.gohugo.io/hugo-book/) as well as the [Hugo Framework](https://gohugo.io/) itself
@@ -144,9 +148,5 @@ end
 {{< tab "Charmandar" >}} The Fire-Type Pokémon {{< /tab >}}
 {{< /tabs >}}
 ```
-
----
-
-### Contributors
 
 ---
