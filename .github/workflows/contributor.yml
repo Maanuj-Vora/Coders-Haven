@@ -13,25 +13,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: Maanuj-Vora/List-Contributors@1.0.0
+      - uses: Maanuj-Vora/List-Contributors@1.0.02
         with:
           REPO_NAME: "${{github.repository}}"
           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
           CONTRIBUTOR: "### Contributors"
-          ENDCONTRIBUTOR: "---"
           FILEPATH: "/content/contributor/_index.md"
           COLUMN_PER_ROW: "4"
           IMG_WIDTH: "50"
           FONT_SIZE: "14"
           COMMIT_MESSAGE: "Contributed to Contributor List"
-#       - uses: Maanuj-Vora/List-Contributors@1.0.1
-#         with:
-#           REPO_NAME: "${{github.repository}}"
-#           ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
-#           CONTRIBUTOR: "### Contributors"
-#           ENDCONTRIBUTOR: "---"
-#           FILEPATH: "README.md"
-#           COLUMN_PER_ROW: "4"
-#           IMG_WIDTH: "50"
-#           FONT_SIZE: "14"
-#           COMMIT_MESSAGE: "Contributed to Contributor List"
+      - uses: Maanuj-Vora/List-Contributors@1.0.2
+        with:
+          REPO_NAME: "${{github.repository}}"
+          ACCESS_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          CONTRIBUTOR: "### Contributors"
+          FILEPATH: "README.md"
+          COLUMN_PER_ROW: "4"
+          IMG_WIDTH: "50"
+          FONT_SIZE: "14"
+          COMMIT_MESSAGE: "Contributed to Contributor List"
