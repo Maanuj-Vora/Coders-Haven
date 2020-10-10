@@ -113,7 +113,8 @@ e since the character &#39;e&#39; is at the first index of the String</descripti
       <description>Variables #   Any item/name that is referencing/stores another item in storage
  Variables can have any name #  For example
  x Dino Is_A Smart1e   Instanitating a Variable #  For example
-x = 5 Dino = &amp;#34;Ok&amp;#34; Is_A = 0.01 Smart1e = True  Printing Variables #  Place the variable name in the parenthesis of the print() function</description>
+x = 5 Dino = &amp;#34;Ok&amp;#34; Is_A = 0.01 Smart1e = True  Printing Variables #  Place the variable name in the parenthesis of the print() function
+print(x) print(Dino) print(Is_A) print(Smart1e) Would print out</description>
     </item>
     
   </channel>
