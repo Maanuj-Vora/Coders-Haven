@@ -5,18 +5,22 @@
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Datatypes #   We will be exploring different datatypes
-  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   type() #  type()  By adding any variable inside the parenthesis, it will return the type of it  ">
+  Integer String Float Boolean   Integer #   Any whole number  | 5 | 10 | 102310 |
+String #   Any letters, numbers, and characters Quotation marks are needed around the value  | &#39;Hi&#39; | &#39;I like to move it move it&#39; | &#39;P0k3m0n&#39; |
+Float #   Any number with a decimal  | 23.">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
 <meta property="og:description" content="Datatypes #   We will be exploring different datatypes
-  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   type() #  type()  By adding any variable inside the parenthesis, it will return the type of it  " />
+  Integer String Float Boolean   Integer #   Any whole number  | 5 | 10 | 102310 |
+String #   Any letters, numbers, and characters Quotation marks are needed around the value  | &#39;Hi&#39; | &#39;I like to move it move it&#39; | &#39;P0k3m0n&#39; |
+Float #   Any number with a decimal  | 23." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/" />
-<meta property="article:modified_time" content="2020-10-10T12:02:07-07:00" />
+<meta property="article:modified_time" content="2020-10-10T14:00:45-07:00" />
 <title>Datatypes | Coders&#39; Haven</title>
 <link rel="manifest" href="/Coders-Haven/manifest.json">
 <link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
-<script defer src="/Coders-Haven/en.search.min.3c51949f0751c2395aae9cc20c344908bce11c871d02cd6b336440c36299c5ec.js" integrity="sha256-PFGUnwdRwjlarpzCDDRJCLzhHIcdAs1rM2RAw2KZxew="></script>
+<script defer src="/Coders-Haven/en.search.min.bfe22dae68dd5e0d6ebac4a3e1920d605c3f94af9adab3444101780222b4c05c.js" integrity="sha256-v&#43;ItrmjdXg1uusSj4ZINYFw/lK&#43;a2rNEQQF4AiK0wFw="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -168,6 +172,7 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li>Any whole number</li>
 </ul>
+<p>| <code>5</code> | <code>10</code> | <code>102310</code> |</p>
 <h2 id="string">
   String
   <a class="anchor" href="#string">#</a>
@@ -176,6 +181,7 @@ https://github.com/alex-shpak/hugo-book
 <li>Any letters, numbers, and characters</li>
 <li>Quotation marks are needed around the value</li>
 </ul>
+<p>| <code>'Hi'</code> | <code>'I like to move it move it'</code> | <code>'P0k3m0n'</code> |</p>
 <h2 id="float">
   Float
   <a class="anchor" href="#float">#</a>
@@ -183,6 +189,7 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li>Any number with a decimal</li>
 </ul>
+<p>| <code>23.325</code> | <code>34.1124</code> | <code>3.14</code> |</p>
 <h2 id="boolean">
   Boolean
   <a class="anchor" href="#boolean">#</a>
@@ -190,15 +197,38 @@ https://github.com/alex-shpak/hugo-book
 <ul>
 <li>True or False</li>
 </ul>
+<p>| <code>True</code> | <code>False</code> |</p>
 <hr>
 <h2 id="type">
   <code>type()</code>
   <a class="anchor" href="#type">#</a>
 </h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">type()
-</code></pre></div><ul>
-<li>By adding any variable inside the parenthesis, it will return the type of it</li>
-</ul>
+</code></pre></div><p>By adding anything inside the parenthesis, it will return the type of it</p>
+<hr>
+<p>Lets try it for an integer</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(type(<span style="color:#ae81ff">5</span>))
+</code></pre></div><p>Will print out</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>type <span style="color:#e6db74">&#39;int&#39;</span><span style="color:#f92672">&gt;</span>
+</code></pre></div><p>It returns that value <code>5</code> has a type of <code>int</code> , which means integer</p>
+<hr>
+<p>Lets try it for a string</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(type(<span style="color:#e6db74">&#39;hi&#39;</span>))
+</code></pre></div><p>Will print out</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>type <span style="color:#e6db74">&#39;str&#39;</span><span style="color:#f92672">&gt;</span>
+</code></pre></div><p>It returns that value <code>'hi'</code> has a type of <code>str</code> , which means string</p>
+<hr>
+<p>Lets try it for a float</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(type(<span style="color:#ae81ff">5.2102</span>))
+</code></pre></div><p>Will print out</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>type <span style="color:#e6db74">&#39;float&#39;</span><span style="color:#f92672">&gt;</span>
+</code></pre></div><p>It returns that value <code>5.2102'</code> has a type of <code>float</code> .</p>
+<hr>
+<p>Lets try it for a boolean</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(type(True))
+</code></pre></div><p>Will print out</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">&lt;</span>type <span style="color:#e6db74">&#39;bool&#39;</span><span style="color:#f92672">&gt;</span>
+</code></pre></div><p>It returns that value <code>True</code> has a type of <code>bool</code> , which means boolean</p>
 </article>
  
       
@@ -209,7 +239,7 @@ https://github.com/alex-shpak/hugo-book
 
 
 
-  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/a228865dbc6f2f6c2a6185d9332fa42a06485305" title='Last modified by Maanuj Vora | October 10, 2020' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/9c346cb9bf6dc0b36e82aab0d216792ca6a9ae46" title='Last modified by Maanuj Vora | October 10, 2020' target="_blank" rel="noopener">
       <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
       <span>October 10, 2020</span>
     </a>

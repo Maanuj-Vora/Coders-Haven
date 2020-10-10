@@ -13,7 +13,7 @@
       
       <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/casting/</guid>
       <description>Casting #   Casting is used to switch one type of datatype into another through certain functions
-Why is it needed? #  It is neccessary to know this since inputs are recieved in the form of strings, and if you wanted a numerical input from the user you would not be able to without the use of casting
+Whats the point? #  It is neccessary to know this since inputs are recieved in the form of strings, and if you wanted a numerical input from the user you would not be able to without the use of casting
  Functions for Casting #   int() #  The int() function will cast anything inside the parenthesis into an integer, only if it is possible to</description>
     </item>
     
@@ -24,7 +24,9 @@ Why is it needed? #  It is neccessary to know this since inputs are recieved in 
       
       <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/</guid>
       <description>Datatypes #   We will be exploring different datatypes
-  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   type() #  type()  By adding any variable inside the parenthesis, it will return the type of it  </description>
+  Integer String Float Boolean   Integer #   Any whole number  | 5 | 10 | 102310 |
+String #   Any letters, numbers, and characters Quotation marks are needed around the value  | &#39;Hi&#39; | &#39;I like to move it move it&#39; | &#39;P0k3m0n&#39; |
+Float #   Any number with a decimal  | 23.</description>
     </item>
     
     <item>
