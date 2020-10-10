@@ -4,7 +4,7 @@
 
 Casting is used to switch one type of datatype into another through certain functions
 
-## Why is it needed?
+## Whats the point?
 
 It is neccessary to know this since inputs are recieved in the form of strings, and if you wanted a numerical input from the user you would not be able to without the use of casting
 

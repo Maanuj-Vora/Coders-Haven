@@ -17,18 +17,26 @@ We will be exploring different datatypes
 
 * Any whole number
 
+| `5` | `10` | `102310` |
+
 ## String
 
 * Any letters, numbers, and characters
 * Quotation marks are needed around the value
 
+| `'Hi'` | `'I like to move it move it'` | `'P0k3m0n'` |
+
 ## Float
 
 * Any number with a decimal
 
+| `23.325` | `34.1124` | `3.14` |
+
 ## Boolean
 
 * True or False
+
+| `True` | `False` |
 
 ---
 
@@ -38,4 +46,68 @@ We will be exploring different datatypes
 type()
 ```
 
-* By adding any variable inside the parenthesis, it will return the type of it
+By adding anything inside the parenthesis, it will return the type of it
+
+---
+
+Lets try it for an integer
+
+``` python
+print(type(5))
+```
+
+Will print out
+
+``` python
+<type 'int'>
+```
+
+It returns that value `5` has a type of `int` , which means integer
+
+---
+
+Lets try it for a string
+
+``` python
+print(type('hi'))
+```
+
+Will print out
+
+``` python
+<type 'str'>
+```
+
+It returns that value `'hi'` has a type of `str` , which means string
+
+---
+
+Lets try it for a float
+
+``` python
+print(type(5.2102))
+```
+
+Will print out
+
+``` python
+<type 'float'>
+```
+
+It returns that value `5.2102'` has a type of `float` .
+
+---
+
+Lets try it for a boolean
+
+``` python
+print(type(True))
+```
+
+Will print out
+
+``` python
+<type 'bool'>
+```
+
+It returns that value `True` has a type of `bool` , which means boolean
