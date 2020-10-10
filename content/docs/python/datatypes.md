@@ -32,7 +32,7 @@ We will be exploring different datatypes
 
 ---
 
-## The type() Function
+## `type()`
 
 ``` python
 type()

@@ -40,19 +40,20 @@ This will return
 
 since there are 11 characters in the string
 
-01. H
-02. e
-03. l
-04. l
-05. o
-
-6.
-
-07. W
-08. o
-09. r
-10. l
-11. d
+| Index | Character |
+| --- | --- |
+| 1 | `H` |
+| 2 | `e` |
+| 3 | `l` |
+| 4 | `l` |
+| 5 | `o` |
+| 6 | ` ` |
+| 7 | `W` |
+| 8 | `o` |
+| 9 | `r` |
+| 10 | `l` |
+| 11 | `d` |
+| 12 | `e` |
 
 ### Removing blanks in a string
 

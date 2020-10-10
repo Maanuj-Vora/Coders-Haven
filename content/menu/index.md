@@ -12,6 +12,7 @@ headless = true
   + [If Statements]({{< relref "/docs/python/ifStatements" >}})
   + [Lists]({{< relref "/docs/python/lists" >}})
   + [Strings]({{< relref "/docs/python/strings" >}})
+  + [Methods]({{< relref "/docs/python/methods" >}})
 
 * [Java]({{< relref "/docs/java" >}})
   + [Hello World]({{< relref "/docs/java/helloWorld" >}})
