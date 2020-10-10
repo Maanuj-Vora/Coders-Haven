@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en" dir=>
+
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Methods #   A general rule of thumb is, if you are copying and pasting a lot, then you are doing something wrong   What is a Method? #  Well, a method is simply a chunk of code, that can be called over and over again by the name it is give
+Here is an example of a method that prints out Hello World when it is called">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
+<meta property="og:description" content="Methods #   A general rule of thumb is, if you are copying and pasting a lot, then you are doing something wrong   What is a Method? #  Well, a method is simply a chunk of code, that can be called over and over again by the name it is give
+Here is an example of a method that prints out Hello World when it is called" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/python/methods/" />
+<meta property="article:modified_time" content="2020-10-10T12:02:07-07:00" />
+<title>Methods | Coders&#39; Haven</title>
+<link rel="manifest" href="/Coders-Haven/manifest.json">
+<link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
+<link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
+<script defer src="/Coders-Haven/en.search.min.3526b979f26456eac90ba322c996ea44e4b56b0c3c2e5c70ac3ace51c27802b8.js" integrity="sha256-NSa5efJkVurJC6MiyZbqROS1aww8LlxwrDrOUcJ4Arg="></script>
+<!--
+Made with Book Theme
+https://github.com/alex-shpak/hugo-book
+-->
+
+  
+</head>
+
+<body dir=>
+  <input type="checkbox" class="hidden toggle" id="menu-control" />
+  <input type="checkbox" class="hidden toggle" id="toc-control" />
+  <main class="container flex">
+    <aside class="book-menu">
+      
+  <nav>
+<h2 class="book-brand">
+  <a href="/Coders-Haven"><span>Coders&#39; Haven</span>
+  </a>
+</h2>
+
+
+<div class="book-search">
+  <input type="text" id="book-search-input" placeholder="Search" aria-label="Search" maxlength="64" data-hotkeys="s/" />
+  <div class="book-search-spinner hidden"></div>
+  <ul id="book-search-results"></ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <ul>
+<li>
+<p><a href="/Coders-Haven/docs/python/">Python</a></p>
+<ul>
+<li><a href="/Coders-Haven/docs/python/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/docs/python/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/docs/python/variables/">Variables</a></li>
+<li><a href="/Coders-Haven/docs/python/operators/">Operators</a></li>
+<li><a href="/Coders-Haven/docs/python/casting/">Casting</a></li>
+<li><a href="/Coders-Haven/docs/python/input/">Input</a></li>
+<li><a href="/Coders-Haven/docs/python/ifstatements/">If Statements</a></li>
+<li><a href="/Coders-Haven/docs/python/lists/">Lists</a></li>
+<li><a href="/Coders-Haven/docs/python/strings/">Strings</a></li>
+<li><a href="/Coders-Haven/docs/python/methods/"class=active>Methods</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/Coders-Haven/docs/java/">Java</a></p>
+<ul>
+<li><a href="/Coders-Haven/docs/java/helloworld/">Hello World</a></li>
+<li><a href="/Coders-Haven/docs/java/publicvprivatevprotected/">Public V Private V Protected</a></li>
+<li><a href="/Coders-Haven/docs/java/datatypes/">Datatypes</a></li>
+<li><a href="/Coders-Haven/docs/java/strings/">Strings</a></li>
+</ul>
+</li>
+<li>
+<p><a href="/Coders-Haven/contributor/">Contributors</a></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+</nav>
+
+
+
+
+  <script>(function(){var menu=document.querySelector("aside.book-menu nav");addEventListener("beforeunload",function(event){localStorage.setItem("menu.scrollTop",menu.scrollTop);});menu.scrollTop=localStorage.getItem("menu.scrollTop");})();</script>
+
+
+ 
+    </aside>
+
+    <div class="book-page">
+      <header class="book-header">
+        
+  <div class="flex align-center justify-between">
+  <label for="menu-control">
+    <img src="/Coders-Haven/svg/menu.svg" class="book-icon" alt="Menu" />
+  </label>
+
+  <strong>Methods</strong>
+
+  <label for="toc-control">
+    
+    <img src="/Coders-Haven/svg/toc.svg" class="book-icon" alt="Table of Contents" />
+    
+  </label>
+</div>
+
+
+  
+  <aside class="hidden clearfix">
+    
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#methods">Methods</a>
+      <ul>
+        <li><a href="#what-is-a-method">What is a Method?</a></li>
+        <li><a href="#is-that-all-a-method-is-capable-of-doing">Is that all a Method is Capable of Doing?</a></li>
+        <li><a href="#the-return-keyword">The <code>return</code> keyword</a></li>
+        <li><a href="#problem-time">Problem Time</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+
+  </aside>
+  
+ 
+      </header>
+
+      
+      
+  <article class="markdown"><h1 id="methods">
+  Methods
+  <a class="anchor" href="#methods">#</a>
+</h1>
+<hr>
+<blockquote class="book-hint warning">
+  A general rule of thumb is, if you are copying and pasting a lot, then you are doing something wrong
+</blockquote>
+
+<hr>
+<h2 id="what-is-a-method">
+  What is a Method?
+  <a class="anchor" href="#what-is-a-method">#</a>
+</h2>
+<p>Well, a method is simply a chunk of code, that can be called over and over again by the name it is give</p>
+<p>Here is an example of a method that prints out <code>Hello World</code> when it is called</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">helloWorld</span>():
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hello World&#39;</span>)
+</code></pre></div><p>And to use this method to do our bidding, we would call the following code</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">helloWorld()
+</code></pre></div><p>Which should print out</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;Hello World&#39;</span>
+</code></pre></div><hr>
+<h2 id="is-that-all-a-method-is-capable-of-doing">
+  Is that all a Method is Capable of Doing?
+  <a class="anchor" href="#is-that-all-a-method-is-capable-of-doing">#</a>
+</h2>
+<p>No.</p>
+<p>We can also pass in objects into methods for them to use, these are called <code>inputs</code> as they are being inputted into the method. This is handy as sometimes the values we need to use change, and by using a variable input, we can have more uses for the same method</p>
+<p>Here is how you would define a method that prints out a customized greeting</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">greeting</span>(name):
+    <span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hello &#39;</span> <span style="color:#f92672">+</span> name)
+</code></pre></div><p>And to use this method to do our bidding, we would call the following code</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Maanuj&#39;</span>
+greeting(name)
+</code></pre></div><p>We can also call it like this way as well, and it doesn&rsquo;t make a difference</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">greeting(<span style="color:#e6db74">&#39;Maanuj&#39;</span>)
+</code></pre></div><p>These two ways, should print out the same thing, being</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;Hello Maanuj&#39;</span>
+</code></pre></div><hr>
+<h2 id="the-return-keyword">
+  The <code>return</code> keyword
+  <a class="anchor" href="#the-return-keyword">#</a>
+</h2>
+<p>What if, instead of printing something out to the console, we want the code to run calculation, but keep it for future use?</p>
+<p>In this case, we would use the <code>return</code> keyword</p>
+<p>What it does is when the method runs, the thing you want outputted from the method is stated after the <code>return</code> keyword, and then the method essentially <em>becomes</em> that value</p>
+<p>Here is an example</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">helloWorld</span>():
+    <span style="color:#66d9ef">return</span> <span style="color:#e6db74">&#39;Hello World&#39;</span>
+helloWorldStr <span style="color:#f92672">=</span> helloWorld()
+<span style="color:#66d9ef">print</span>(helloWorldStr)
+</code></pre></div><p>What this is doing is that it first defines the <code>helloWorld()</code> method for use later. Then it creates a variable, <code>helloWorldStr</code> and assigns it the value you get from running <code>helloWorld()</code> . After that, the method, <code>helloWorld()</code> returns the string <code>'Hello World'</code> , which is then stored into the variable <code>helloWorldStr</code> . Then, the variable is printed out, and we get</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#e6db74">&#39;Hello World&#39;</span>
+</code></pre></div><p>Even though we could have just called <code>print('Hello World')</code> , and have finished it in one line, the importance of this piece of code comes into play when you have to run the same piece of code multiple times</p>
+<hr>
+<h2 id="problem-time">
+  Problem Time
+  <a class="anchor" href="#problem-time">#</a>
+</h2>
+<p>Here is a mini-problem for you to code</p>
+<p>You are an employee of a start-up company, <em>EZ Addition</em>, which is in the works of creating a calculator which can add two numbers together and print out the sum. With your new found coding skills, your boss comes up to you and wants you to create a piece of code, which asks the user for two numbers to add, and then prints out the addition of those two numbers. He also wants you to make it simple since the company wants to reuse the code in multiple places.</p>
+<p>Your task: Create the piece of software that the company wants</p>
+<details >
+  <summary>Click here after attempting it</summary>
+  <div class="markdown-inner">
+    <p>Here is one possible way to solve this question</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">addition</span>(num1, num2)
+    <span style="color:#66d9ef">print</span>(num1 <span style="color:#f92672">+</span> num2)
+num1 <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Please enter in the first number&#39;</span>))
+num2 <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Please enter in the second number&#39;</span>))
+addition(num1, num2)
+</code></pre></div><p>What we did here was we first created a method, named <code>addition</code> , which took in two parameters, <code>num1</code> and <code>num2</code> , and printed out the addition of them. In the third line, we asked the user for the number, and casted it into an integer, which would let us add the numbers together. Then when we called the method with the inputs, <code>addition(num1, num2)</code> , it printed out the sum we wanted</p>
+
+  </div>
+</details>
+
+</article>
+ 
+      
+
+      <footer class="book-footer">
+        
+  <div class="flex flex-wrap justify-between">
+
+
+
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/a228865dbc6f2f6c2a6185d9332fa42a06485305" title='Last modified by Maanuj Vora | October 10, 2020' target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
+      <span>October 10, 2020</span>
+    </a>
+  </div>
+
+
+
+  <div>
+    <a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/edit/master/content//docs/python/methods.md" target="_blank" rel="noopener">
+      <img src="/Coders-Haven/svg/edit.svg" class="book-icon" alt="Edit" />
+      <span>Edit this page</span>
+    </a>
+  </div>
+
+</div>
+
+ 
+        
+      </footer>
+
+      
+  
+ 
+
+      <label for="menu-control" class="hidden book-menu-overlay"></label>
+    </div>
+
+    
+    <aside class="book-toc">
+      
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#methods">Methods</a>
+      <ul>
+        <li><a href="#what-is-a-method">What is a Method?</a></li>
+        <li><a href="#is-that-all-a-method-is-capable-of-doing">Is that all a Method is Capable of Doing?</a></li>
+        <li><a href="#the-return-keyword">The <code>return</code> keyword</a></li>
+        <li><a href="#problem-time">Problem Time</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+ 
+    </aside>
+    
+  </main>
+
+  
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

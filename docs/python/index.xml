@@ -24,7 +24,7 @@ Why is it needed? #  It is neccessary to know this since inputs are recieved in 
       
       <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/</guid>
       <description>Datatypes #   We will be exploring different datatypes
-  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   The type() Function #  type()  By adding any variable inside the parenthesis, it will return the type of it  </description>
+  Integer String Float Boolean   Integer #   Any whole number  String #   Any letters, numbers, and characters Quotation marks are needed around the value  Float #   Any number with a decimal  Boolean #   True or False   type() #  type()  By adding any variable inside the parenthesis, it will return the type of it  </description>
     </item>
     
     <item>
@@ -70,6 +70,16 @@ Lists can hold any type of datatype within it
 Lists start at an index of 0(like most things in the virtual world), instead of 1
  Things about Lists #  Declaring an List #  lst = [ ] This makes an empty list named lst
 Adding objects to an List #  lst = [ ] lst.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/methods/</guid>
+      <description>Methods #   A general rule of thumb is, if you are copying and pasting a lot, then you are doing something wrong   What is a Method? #  Well, a method is simply a chunk of code, that can be called over and over again by the name it is give
+Here is an example of a method that prints out Hello World when it is called</description>
     </item>
     
     <item>
