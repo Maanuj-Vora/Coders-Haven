@@ -33,3 +33,19 @@ Smart1e = True
 ## Printing Variables
 
 Place the variable name in the parenthesis of the `print()` function
+
+``` python
+print(x)
+print(Dino)
+print(Is_A)
+print(Smart1e)
+```
+
+Would print out
+
+``` python
+5
+'Ok'
+0.01
+True
+```
