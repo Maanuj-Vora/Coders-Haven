@@ -49,20 +49,20 @@ def greeting(name):
 And to use this method to do our bidding, we would call the following code
 
 ``` python
-name = 'Maanuj'
+name = 'Sleepy'
 greeting(name)
 ```
 
 We can also call it like this way as well, and it doesn't make a difference
 
 ``` python
-greeting('Maanuj')
+greeting('Sleepy')
 ```
 
 These two ways, should print out the same thing, being
 
 ``` python
-'Hello Maanuj'
+'Hello Sleepy'
 ```
 
 ---
