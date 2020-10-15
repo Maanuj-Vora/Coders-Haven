@@ -57,8 +57,7 @@ Float #   Any number with a decimal  | 23.</description>
       <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/input/</guid>
       <description>Input #   The input() function will pose a prompt to the user, in which the answer to the question will be returned to the program
 Remember that all responses will be stored in a string even if they are numbers, so use casting!
-Example
-input(&amp;#34;What is your name?&amp;#34;) &amp;gt; &amp;#34;Maanuj&amp;#34; input(&amp;#34;What is your age?&amp;#34;) &amp;gt; &amp;#34;17&amp;#34; input(&amp;#34;Are you alive?&amp;#34;) &amp;gt; &amp;#34;False&amp;#34; </description>
+ For example, if I wanted to make a greeting with the user&amp;rsquo;s name, I would need them to input their name into my code for me to use it</description>
     </item>
     
     <item>

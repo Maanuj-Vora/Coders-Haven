@@ -6,21 +6,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Input #   The input() function will pose a prompt to the user, in which the answer to the question will be returned to the program
 Remember that all responses will be stored in a string even if they are numbers, so use casting!
-Example
-input(&#34;What is your name?&#34;) &gt; &#34;Maanuj&#34; input(&#34;What is your age?&#34;) &gt; &#34;17&#34; input(&#34;Are you alive?&#34;) &gt; &#34;False&#34; ">
+ For example, if I wanted to make a greeting with the user&rsquo;s name, I would need them to input their name into my code for me to use it">
 <meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="" />
 <meta property="og:description" content="Input #   The input() function will pose a prompt to the user, in which the answer to the question will be returned to the program
 Remember that all responses will be stored in a string even if they are numbers, so use casting!
-Example
-input(&#34;What is your name?&#34;) &gt; &#34;Maanuj&#34; input(&#34;What is your age?&#34;) &gt; &#34;17&#34; input(&#34;Are you alive?&#34;) &gt; &#34;False&#34; " />
+ For example, if I wanted to make a greeting with the user&rsquo;s name, I would need them to input their name into my code for me to use it" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://maanuj-vora.github.io/Coders-Haven/docs/python/input/" />
-<meta property="article:modified_time" content="2020-10-06T14:51:32-07:00" />
+<meta property="article:modified_time" content="2020-10-13T12:01:19-07:00" />
 <title>Input | Coders&#39; Haven</title>
 <link rel="manifest" href="/Coders-Haven/manifest.json">
 <link rel="icon" href="/Coders-Haven/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/Coders-Haven/book.min.09a284f5a03730d86dde350d2c062b1514e48fdfebba7763941c0674ef65748f.css" integrity="sha256-CaKE9aA3MNht3jUNLAYrFRTkj9/rundjlBwGdO9ldI8=">
-<script defer src="/Coders-Haven/en.search.min.bfe22dae68dd5e0d6ebac4a3e1920d605c3f94af9adab3444101780222b4c05c.js" integrity="sha256-v&#43;ItrmjdXg1uusSj4ZINYFw/lK&#43;a2rNEQQF4AiK0wFw="></script>
+<script defer src="/Coders-Haven/en.search.min.a56583108d77e53d3a916bf50ea750c49c1872b8a4967ad9652f41d4c6579b36.js" integrity="sha256-pWWDEI135T06kWv1DqdQxJwYcriklnrZZS9B1MZXmzY="></script>
 <!--
 Made with Book Theme
 https://github.com/alex-shpak/hugo-book
@@ -150,16 +148,36 @@ https://github.com/alex-shpak/hugo-book
 <hr>
 <p>The input() function will pose a prompt to the user, in which the answer to the question will be returned to the program</p>
 <p>Remember that all responses will be stored in a string even if they are numbers, so use casting!</p>
-<p>Example</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">input(<span style="color:#e6db74">&#34;What is your name?&#34;</span>)
-<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;Maanuj&#34;</span>
-
-input(<span style="color:#e6db74">&#34;What is your age?&#34;</span>)
-<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;17&#34;</span>
-
-input(<span style="color:#e6db74">&#34;Are you alive?&#34;</span>)
-<span style="color:#f92672">&gt;</span> <span style="color:#e6db74">&#34;False&#34;</span>
-</code></pre></div></article>
+<hr>
+<p>For example, if I wanted to make a greeting with the user&rsquo;s name, I would need them to input their name into my code for me to use it</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">name <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Hello user, what is your name?&#39;</span>)
+</code></pre></div><p>This first prints out the statement, <code>Hello user, what is your name?</code> to the console, and then waits for the user input. After getting the user input, it then goes off and stores it into the variable, named <code>name</code></p>
+<p>To print out a greeting to the user, we would do</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">print</span>(<span style="color:#e6db74">&#39;Hello&#39;</span> <span style="color:#f92672">+</span> name)
+</code></pre></div><p>Now, if we actually used this, it would go like this</p>
+<pre><code>Hello user, what is your name? Sleepy
+Hello Sleepy
+</code></pre><p>Great! But what if we wanted to make a mini-calculator and add two numbers together?</p>
+<p>Well, if we did it like it was defined above, we would do</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">num1 <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Please enter your first number&#39;</span>)
+num2 <span style="color:#f92672">=</span> input(<span style="color:#e6db74">&#39;Please enter your second number&#39;</span>)
+<span style="color:#66d9ef">print</span>(num1<span style="color:#f92672">+</span>num2)
+</code></pre></div><p>Cool, now let us run this</p>
+<pre><code>Please enter your first number 5
+Please enter your second number 10
+510
+</code></pre><p>Well, it looks like we are doing some basic caveman math here. Well, why did it only combine the two inputs and not actually &lsquo;add&rsquo; them?</p>
+<p>The <code>input()</code> function takes in an input and keeps it is a string. Wait, a <code>string</code>, but don&rsquo;t we want to add two numbers together? This is where casting comes in</p>
+<p>We will cast the two inputs we get into integers, and then add them</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">num1 <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Please enter your first number&#39;</span>))
+num2 <span style="color:#f92672">=</span> int(input(<span style="color:#e6db74">&#39;Please enter your second number&#39;</span>))
+<span style="color:#66d9ef">print</span>(num1<span style="color:#f92672">+</span>num2)
+</code></pre></div><p>Now let us run this</p>
+<pre><code>Please enter your first number 5
+Please enter your second number 10
+15
+</code></pre><p>Nice, now it works</p>
+</article>
  
       
 
@@ -169,9 +187,9 @@ input(<span style="color:#e6db74">&#34;Are you alive?&#34;</span>)
 
 
 
-  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/554925ee9c9b6a8a5a494e3c4b6fe228f8795894" title='Last modified by Maanuj Vora | October 6, 2020' target="_blank" rel="noopener">
+  <div><a class="flex align-center" href="https://github.com/Maanuj-Vora/Coders-Haven/commit/997795c65ca741dc75b9bab5ad63e5ac325bdb27" title='Last modified by Maanuj Vora | October 13, 2020' target="_blank" rel="noopener">
       <img src="/Coders-Haven/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>October 6, 2020</span>
+      <span>October 13, 2020</span>
     </a>
   </div>
 
