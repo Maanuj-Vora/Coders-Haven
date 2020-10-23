@@ -17,26 +17,58 @@ We will be exploring different datatypes
 
 * Any whole number
 
-| `5` | `10` | `102310` |
+### Examples
+
+{{< columns >}}
+ `5`
+<--->
+ `10`
+<--->
+ `102310`
+{{< /columns >}}
 
 ## String
 
 * Any letters, numbers, and characters
 * Quotation marks are needed around the value
 
-| `'Hi'` | `'I like to move it move it'` | `'P0k3m0n'` |
+### Examples
+
+{{< columns >}}
+ `'Hi'`
+<--->
+ `'I like to move it move it'`
+<--->
+ `'P0k3m0n'`
+{{< /columns >}}
 
 ## Float
 
 * Any number with a decimal
 
-| `23.325` | `34.1124` | `3.14` |
+### Examples
+
+{{< columns >}}
+ `23.325`
+<--->
+ `34.1124`
+<--->
+ `3.14`
+{{< /columns >}}
 
 ## Boolean
 
 * True or False
 
-| `True` | `False` |
+### Examples
+
+{{< columns >}}
+ `True`
+<--->
+
+<--->
+ `False`
+{{< /columns >}}
 
 ---
 
@@ -46,7 +78,7 @@ We will be exploring different datatypes
 type()
 ```
 
-By adding anything inside the parenthesis, it will return the type of it
+By adding any object within the parenthesis, it will return the type of it
 
 ---
 
