@@ -10,9 +10,10 @@ headless = true
   + [Casting]({{< relref "/docs/python/casting" >}})
   + [Input]({{< relref "/docs/python/input" >}})
   + [If Statements]({{< relref "/docs/python/ifStatements" >}})
-  + [Lists]({{< relref "/docs/python/lists" >}})
   + [Strings]({{< relref "/docs/python/strings" >}})
+  + [Lists]({{< relref "/docs/python/lists" >}})
   + [Methods]({{< relref "/docs/python/methods" >}})
+  + [Loops]({{< relref "/docs/python/loops" >}})
 
 * [Java]({{< relref "/docs/java" >}})
   + [Hello World]({{< relref "/docs/java/helloWorld" >}})

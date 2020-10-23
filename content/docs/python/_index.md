@@ -7,6 +7,8 @@ type: docs
 
 ---
 
-Here you will learn more about the basic fundamentals of Python itself
+## What is Python?
+
+Python is a programming language that was first released in 1991, and was developed by `Guido van Rossum`.
 
 ---
