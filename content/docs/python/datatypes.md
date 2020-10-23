@@ -31,13 +31,14 @@ We will be exploring different datatypes
 
 * Any letters, numbers, and characters
 * Quotation marks are needed around the value
+    - It can be either single or double quotes
 
 ### Examples
 
 {{< columns >}}
  `'Hi'`
 <--->
- `'I like to move it move it'`
+ `"I like to move it"`
 <--->
  `'P0k3m0n'`
 {{< /columns >}}
