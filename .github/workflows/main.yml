@@ -1,11 +1,11 @@
 name: Floppy Disk or Save Icon
 
-on:
-  push:
-    branches:
-      - master
-    paths:
-      - "content/**"
+on: [push]
+#   push:
+#     branches:
+#       - master
+#     paths:
+#       - "content/**"
 
 jobs:
   deploy:
