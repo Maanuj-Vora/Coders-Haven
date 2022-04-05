@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Coders&#39; Haven</title>
-    <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/</link>
+    <link>http://www.maanujvora.me/Coders-Haven/docs/java/</link>
     <description>Recent content in Introduction on Coders&#39; Haven</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://maanuj-vora.github.io/Coders-Haven/docs/java/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://www.maanujvora.me/Coders-Haven/docs/java/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</link>
+      <link>http://www.maanujvora.me/Coders-Haven/docs/java/datatypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</guid>
+      <guid>http://www.maanujvora.me/Coders-Haven/docs/java/datatypes/</guid>
       <description>Datatypes #   We will be exploring different datatypes
   Integer - int Double - double Boolean - boolean String - String   Integer #   Any whole number  Double #   Any number with a decimal  Boolean #   True or False  String #   Any letters, numbers, and characters Quotation marks are needed around the value   Integer #  Integers are usually defined as so,</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/helloworld/</link>
+      <link>http://www.maanujvora.me/Coders-Haven/docs/java/helloworld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/helloworld/</guid>
+      <guid>http://www.maanujvora.me/Coders-Haven/docs/java/helloworld/</guid>
       <description>Hello World #   We will be printing out the sentence &amp;lsquo;Hello World&amp;rsquo;
  public class HelloWorld {  public static void main(String[] args) {  System.out.println(&amp;#34;Hello World&amp;#34;);  } }  Parts #   public class HelloWorld {  We defined a public class named HelloWorld . We will get to classes later   public static void main(String[] args) {  We wrote out, public static void main(String[] args), which is a declaration in which we will later go into in detail   System.</description>
     </item>
     
     <item>
       <title></title>
-      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/</link>
+      <link>http://www.maanujvora.me/Coders-Haven/docs/java/publicvprivatevprotected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/</guid>
+      <guid>http://www.maanujvora.me/Coders-Haven/docs/java/publicvprivatevprotected/</guid>
       <description>Public Versus Private Versus Protected #   Public #  The public keyword essentially means that this method or class can be access by anyone who has access to the file, and other files in the project would be able to access these methods
 Private #  The private keyword essentially means that this method can only be access within this file itself
 Protected #  The protected keyword essentially means that different files can access the methods/functions/code inside the protected object, but it cannot change and values inside of it</description>
@@ -39,10 +39,10 @@ Protected #  The protected keyword essentially means that different files can ac
     
     <item>
       <title></title>
-      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</link>
+      <link>http://www.maanujvora.me/Coders-Haven/docs/java/strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</guid>
+      <guid>http://www.maanujvora.me/Coders-Haven/docs/java/strings/</guid>
       <description>Strings #   In Java, Strings have many different functions which can be applied to them.
  indexOf() #  With the indexOf() function, you can check for the first occurrence of a String inside of another String
 String longStr = &amp;#34;Hi, my name is Kai, and I like Pi&amp;#34;; int indexStr = longStr.indexOf(&amp;#34;Kai&amp;#34;); System.out.println(indexStr); This would print out the following to the console
