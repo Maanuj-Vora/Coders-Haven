@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction on Coders&#39; Haven</title>
-    <link>https://maanuj-vora.github.io/Coders-Haven/</link>
+    <link>http://maanuj-vora.github.io/Coders-Haven/</link>
     <description>Recent content in Introduction on Coders&#39; Haven</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://maanuj-vora.github.io/Coders-Haven/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="http://maanuj-vora.github.io/Coders-Haven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/datatypes/</guid>
       <description>Datatypes #   We will be exploring different datatypes
   Integer - int Double - double Boolean - boolean String - String   Integer #   Any whole number  Double #   Any number with a decimal  Boolean #   True or False  String #   Any letters, numbers, and characters Quotation marks are needed around the value   Integer #  Integers are usually defined as so,</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/java/helloworld/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/helloworld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/java/helloworld/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/helloworld/</guid>
       <description>Hello World #   We will be printing out the sentence &amp;lsquo;Hello World&amp;rsquo;
- public class HelloWorld { public static void main(String[] args) { System.out.println(&amp;#34;Hello World&amp;#34;); } }  Parts #   public class HelloWorld {  We defined a public class named HelloWorld . We will get to classes later   public static void main(String[] args) {  We wrote out, public static void main(String[] args), which is a declaration in which we will later go into in detail   System.</description>
+ public class HelloWorld {  public static void main(String[] args) {  System.out.println(&amp;#34;Hello World&amp;#34;);  } }  Parts #   public class HelloWorld {  We defined a public class named HelloWorld . We will get to classes later   public static void main(String[] args) {  We wrote out, public static void main(String[] args), which is a declaration in which we will later go into in detail   System.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/publicvprivatevprotected/</guid>
       <description>Public Versus Private Versus Protected #   Public #  The public keyword essentially means that this method or class can be access by anyone who has access to the file, and other files in the project would be able to access these methods
 Private #  The private keyword essentially means that this method can only be access within this file itself
 Protected #  The protected keyword essentially means that different files can access the methods/functions/code inside the protected object, but it cannot change and values inside of it</description>
@@ -39,10 +39,10 @@ Protected #  The protected keyword essentially means that different files can ac
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/java/strings/</guid>
       <description>Strings #   In Java, Strings have many different functions which can be applied to them.
  indexOf() #  With the indexOf() function, you can check for the first occurrence of a String inside of another String
 String longStr = &amp;#34;Hi, my name is Kai, and I like Pi&amp;#34;; int indexStr = longStr.indexOf(&amp;#34;Kai&amp;#34;); System.out.println(indexStr); This would print out the following to the console
@@ -51,10 +51,10 @@ String longStr = &amp;#34;Hi, my name is Kai, and I like Pi&amp;#34;; int indexS
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/casting/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/casting/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/casting/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/casting/</guid>
       <description>Casting #   Casting is used to switch one type of datatype into another through certain functions
 Whats the point? #  It is neccessary to know this since inputs are recieved in the form of strings, and if you wanted a numerical input from the user you would not be able to without the use of casting
  Functions for Casting #   int() #  The int() function will cast anything inside the parenthesis into an integer, only if it is possible to</description>
@@ -62,40 +62,40 @@ Whats the point? #  It is neccessary to know this since inputs are recieved in t
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/datatypes/</guid>
       <description>Datatypes #   We will be exploring different datatypes
   Integer String Float Boolean   Integer #   Any whole number  Examples #  5  10  102310   String #   Any letters, numbers, and characters Quotation marks are needed around the value  It can be either single or double quotes    Examples #  &#39;Hi&#39;  &amp;quot;I like to move it&amp;quot;  &#39;P0k3m0n&#39;   Float #   Any number with a decimal  Examples #  23.</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/helloworld/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/helloworld/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/helloworld/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/helloworld/</guid>
       <description>Hello World #   We will be printing out the sentence &amp;lsquo;Hello World&amp;rsquo;
  print(&amp;#34;Hello World&amp;#34;)  Parts #   print()  It prints out words or variables between the parenthesis   &amp;quot;Hello World&amp;quot;  A string with the value of Hello World is made    </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/ifstatements/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/ifstatements/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/ifstatements/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/ifstatements/</guid>
       <description>If Statements #   If Statements are composed of some parts
- if(condition): code elif(condition): code else: code  Breaking it down #   if -&amp;gt; if  needs a condition   elif -&amp;gt; else if  needs a conditions the second condition you can have as many of these as you want   else -&amp;gt; else  does not need a condition     There are 3 Rules #    NEVER, NEVER EVER, call a If Statment an If Loop    The conditions will almost always use operators    The conditions have to be true for a block of code to execute     Examples #  x = 4 if(x &amp;lt; 5): print(&amp;#34;James is super smart&amp;#34;) elif(x == 6): print(&amp;#34;The smartest boi in the world is currently traveling&amp;#34;) else: print(&amp;#34;James is a smartie&amp;#34;) </description>
+ if(condition):  code elif(condition):  code else:  code  Breaking it down #   if -&amp;gt; if  needs a condition   elif -&amp;gt; else if  needs a conditions the second condition you can have as many of these as you want   else -&amp;gt; else  does not need a condition     There are 3 Rules #    NEVER, NEVER EVER, call a If Statment an If Loop    The conditions will almost always use operators    The conditions have to be true for a block of code to execute     Examples #  x = 4 if(x &amp;lt; 5):  print(&amp;#34;James is super smart&amp;#34;) elif(x == 6):  print(&amp;#34;The smartest boi in the world is currently traveling&amp;#34;) else:  print(&amp;#34;James is a smartie&amp;#34;) </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/input/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/input/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/input/</guid>
       <description>Input #   The input() function will pose a prompt to the user, in which the answer to the question will be returned to the program
 Remember that all responses will be stored in a string even if they are numbers, so use casting!
  For example, if I wanted to make a greeting with the user&amp;rsquo;s name, I would need them to input their name into my code for me to use it</description>
@@ -103,10 +103,10 @@ Remember that all responses will be stored in a string even if they are numbers,
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/lists/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/lists/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/lists/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/lists/</guid>
       <description>Lists #   Lists are a special type of datatype which can hold multiple values within it
 Lists can hold any type of datatype within it
 Lists start at an index of 0(like most things in the virtual world), instead of 1
@@ -116,10 +116,10 @@ Adding objects to an List #  lst = [ ] lst.</description>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/loops/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/loops/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/loops/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/loops/</guid>
       <description>Loops #   What are loops? Loops are used for doing a task a specific number of time, but it also has other uses which we will be exploring below and later on
  Types of Loops #  There are two types of loops that we will be introducing here
  For Loops While Loops   For Loops #  Usually, for loops are used for iterating over a sequence of objects</description>
@@ -127,30 +127,30 @@ Adding objects to an List #  lst = [ ] lst.</description>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/methods/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/methods/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/methods/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/methods/</guid>
       <description>Methods #   A general rule of thumb is, if you are copying and pasting a lot, then you are doing something wrong   What is a Method? #  Well, a method is simply a chunk of code, that can be called over and over again by the name it is give
 Here is an example of a method that prints out Hello World when it is called</description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/operators/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/operators/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/operators/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/operators/</guid>
       <description>Operators #   Operators are used in many scenarios. Note that there are two types of operators
  Logic Operators Mathematical Operators  Logic Operators #   Used for comparisions between two or more objects  Mathematical Operators #   Used for mathematical operations   Examples of Logic Operators #   == (Checking if two things are equal) != (Checking if two things are not equal) &amp;gt; (Checking if the first object is greater than the second object) &amp;lt; (Checking if the first object is less than the second object) &amp;gt;= (Checking if the first object is greater than or equal to the first object) &amp;lt;= (Checking if the first object is less than or equal to the first object) || (If this is true or that is true, then the whole thing is true) (Only in If Statement) &amp;amp;&amp;amp; (This and that have to be true for the whole thing to be true) (Only in If Statement) and (If this is true or that is true, then the whole thing is true) or (This and that have to be true for the whole thing to be true)  Examples of Mathematical Operators #   + (Adding two items) - (Subtracting two items) \* (Multiplying two items) / (Dividing two items) % (Modulus(Basically remainder))  </description>
     </item>
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/strings/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/strings/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/strings/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/strings/</guid>
       <description>Strings #   You know that Strings are one type of datatype, but there is more to Strings than just that
  Strings are like arrays #  You can get a certain character at a specific position in a string like an array using an index.
 a = &amp;#34;Hello World&amp;#34; print(a[1]) This will print out
@@ -159,10 +159,10 @@ e since the character &#39;e&#39; is at the first index of the String</descripti
     
     <item>
       <title></title>
-      <link>https://maanuj-vora.github.io/Coders-Haven/docs/python/variables/</link>
+      <link>http://maanuj-vora.github.io/Coders-Haven/docs/python/variables/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://maanuj-vora.github.io/Coders-Haven/docs/python/variables/</guid>
+      <guid>http://maanuj-vora.github.io/Coders-Haven/docs/python/variables/</guid>
       <description>Variables #   Any item/name that is referencing/stores another item in storage
  Variables can have any name #  For example
  x Dino Is_A Smart1e   Instanitating a Variable #  For example
